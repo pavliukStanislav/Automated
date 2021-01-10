@@ -123,6 +123,24 @@ this.ScenarioInitialize(scenarioInfo);
 #line 12
  testRunner.Then("Simple step with parameter 120", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
+#line 13
+ testRunner.And("Some step with argument transformation in 15 days", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line hidden
+#line 14
+ testRunner.When("Some step with \'Monthly budget\' xlsx file transformation", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line hidden
+                TechTalk.SpecFlow.Table table2 = new TechTalk.SpecFlow.Table(new string[] {
+                            "First",
+                            "Second"});
+                table2.AddRow(new string[] {
+                            "data11",
+                            "data12"});
+                table2.AddRow(new string[] {
+                            "data21",
+                            "data22"});
+#line 15
+ testRunner.When("Table step with transformation", ((string)(null)), table2, "When ");
+#line hidden
             }
             this.ScenarioCleanup();
         }

@@ -1,5 +1,8 @@
-﻿using Automated.OtherTools;
+﻿using Automated.Data.Contracts;
+using Automated.OtherTools;
+using Syncfusion.XlsIO;
 using System;
+using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
 using System.Threading.Tasks;
@@ -75,10 +78,26 @@ namespace Automated.Steps
             Console.WriteLine($"After exact {_scenarioContext.ScenarioInfo.Title} scenario");
         }
 
-        [Then(@"Some step with argument transformation in (.*) days")]
-        public void ThenSomeStepWithArgumentTransformationInDays(int p0)
+        //example type transformation
+        [Then(@"Some step with argument transformation (.*)")]
+        public void ThenSomeStepWithArgumentTransformationInDays(DateTime dt)
         {
-            ScenarioContext.Current.Pending();
+            Console.WriteLine("Date time transformation");
+            Console.WriteLine(dt);
+        }
+
+        //example file transformation
+        [When(@"Some step with (.*) transformation")]
+        public void WhenSomeStepWithXlsxFileTransformation(IWorkbook workbook)
+        {
+            var asd = workbook;
+        }
+
+        //example table transformation
+        [When(@"Table step with transformation")]
+        public void WhenTableStepWithTransformation(IEnumerable<ExampleTableItem> exampleTableItems)
+        {
+            var someData = exampleTableItems;
         }
 
     }

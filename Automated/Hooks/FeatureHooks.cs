@@ -7,6 +7,13 @@ namespace Automated.Hooks
     [Binding]
     public class FeatureHooks
     {
+        private readonly FeatureContext _feaureContext;
+
+        public FeatureHooks(FeatureContext fc)
+        {
+            _feaureContext = fc;
+        }
+
         [BeforeFeature(Order = 0)]
         public static void BeforeFeature()
         {

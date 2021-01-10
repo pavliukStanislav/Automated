@@ -16,7 +16,7 @@ namespace Automated.Steps
         private readonly ExampleContext _exampleContext;
 
         public ExampleStepDefinitions(
-            ScenarioContext scenarioContext, 
+            ScenarioContext scenarioContext,
             ExampleContext exampleContext,
             FeatureContext featureContext)
         {
@@ -28,12 +28,18 @@ namespace Automated.Steps
         [Given(@"Simple step"), Scope(Tag = "exampleTag", Scenario = "Example", Feature = "ExampleFeature")]
         public void GivenSimpleStep()
         {
+            //example of setting data in ScenarioContext
+            _scenarioContext["exampleData"] = 4;
+
             Console.WriteLine(MethodBase.GetCurrentMethod().Name);
         }
 
         [Then(@"Simple step with parameter (.*)")]
         public void ThenSimpleStepWithParameter(int p0)
         {
+            //example of getting ScenarioContextData
+            Console.WriteLine("Data from context: " + _scenarioContext.Get<int>("exampleData"));
+
             Console.WriteLine(MethodBase.GetCurrentMethod().Name);
         }
 
@@ -61,5 +67,19 @@ namespace Automated.Steps
                 Console.WriteLine(item.Values.Aggregate((i, j) => i + " " + j));
             }
         }
+
+        //example after exact scenario
+        [AfterScenario("Example")]
+        public void AfterScenario()
+        {
+            Console.WriteLine($"After exact {_scenarioContext.ScenarioInfo.Title} scenario");
+        }
+
+        [Then(@"Some step with argument transformation in (.*) days")]
+        public void ThenSomeStepWithArgumentTransformationInDays(int p0)
+        {
+            ScenarioContext.Current.Pending();
+        }
+
     }
 }

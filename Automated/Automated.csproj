@@ -51,8 +51,4 @@
     </Compile>
   </ItemGroup>
 
-  <Target Name="PreBuild" BeforeTargets="PreBuildEvent">
-    <Exec Command="taskkill /f /fi &quot;pid gt 0&quot; /im chromedriver.exe&quot; &gt; 1 || exit /B 0" />
-  </Target>
-
 </Project>

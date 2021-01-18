@@ -25,8 +25,8 @@ namespace Automated.Hooks
         {
             Console.WriteLine(MethodBase.GetCurrentMethod().Name);
             
-            var webDriver = new ChromeDriver();
-            objectContainer.RegisterInstanceAs<IWebDriver>(webDriver);
+            //var webDriver = new ChromeDriver();
+            //objectContainer.RegisterInstanceAs<IWebDriver>(webDriver);
 
             //example of getting scenario data
             Console.WriteLine("Scenario title: " + scenarioContext.ScenarioInfo.Title);
@@ -45,9 +45,9 @@ namespace Automated.Hooks
                 Console.WriteLine("An error acured: " + error.Message);
             }
 
-            var driver = objectContainer.Resolve<IWebDriver>();
-            driver.Quit();
-            driver.Dispose();
+            //var driver = objectContainer.Resolve<IWebDriver>();
+            //driver.Quit();
+            //driver.Dispose();
         }
     }
 }

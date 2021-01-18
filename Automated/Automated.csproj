@@ -4,6 +4,18 @@
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
+  <PropertyGroup>
+    <Company>Automated</Company>
+    <Authors>Stanislav Pavliuk</Authors>
+    <PackageId>Automated.Core</PackageId>
+    <Version>1.0.0</Version>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <FileVersion>1.0.0.0</FileVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateAssemblyInfo>true</GenerateAssemblyInfo>
+  </PropertyGroup>
+  
   <ItemGroup>
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.5.0" />
     <PackageReference Include="Selenium.Support" Version="3.141.0" />
@@ -29,12 +41,14 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Drivers\" />
+    <ProjectReference Include="..\Automated.Data\Automated.Data.csproj" />
+    <ProjectReference Include="..\Automated.OtherTools\Automated.OtherTools.csproj" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Automated.Data\Automated.Data.csproj" />
-    <ProjectReference Include="..\Automated.OtherTools\Automated.OtherTools.csproj" />
+    <Compile Update="Properties\AssemblyInfo.cs">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
   </ItemGroup>
 
   <Target Name="PreBuild" BeforeTargets="PreBuildEvent">

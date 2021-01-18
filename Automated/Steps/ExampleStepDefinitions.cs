@@ -100,5 +100,12 @@ namespace Automated.Steps
             var someData = exampleTableItems;
         }
 
+        [When(@"some step with (.*) from example")]
+        [Given(@"some step with (.*) from example")]
+        public void GivenSomeStepWithFromExample(string p0)
+        {
+            Console.WriteLine(p0);
+        }
+
     }
 }

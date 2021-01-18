@@ -16,3 +16,29 @@ Scenario: Example
 	| First  | Second  |
 	| data11 | data12 |
 	| data21 | data22 |
+
+Scenario: Assist helpers
+	Given Create instance from table
+	| Field  | Value |
+	| First  | sda  |
+	| Second | secondData |
+
+	When Create another instanse from tabe
+	| First | Second  |
+	| asdwed | secondData |
+
+	And Compare instance
+	| First | Second  |
+	| First perfect | Second perfect |
+
+@ignore
+Scenario: Not implemented steps
+	Given something
+
+Scenario: WOrking with examples
+	Given some step with <some_parameter> from example
+
+Examples:
+	| some_parameter |
+	| 45             |
+	| 32			 |

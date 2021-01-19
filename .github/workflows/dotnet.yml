@@ -34,6 +34,8 @@ jobs:
       with:
         name: builded_tests
         path: /home/runner/.dotnet
+    - name: cd
+      run: cd /home/runner/.dotnet
     - name: where are we
       run: pwd
     - name: where are we

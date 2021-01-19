@@ -1,10 +1,13 @@
 ﻿using Automated.Data.Contracts;
 using Automated.OtherTools;
+using BoDi;
+using OpenQA.Selenium;
 using Syncfusion.XlsIO;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
+using System.Threading;
 using System.Threading.Tasks;
 using TechTalk.SpecFlow;
 
@@ -13,6 +16,7 @@ namespace Automated.Steps
     [Binding]
     public sealed class ExampleStepDefinitions
     {
+        private readonly IObjectContainer objectContainer;
         //unique for all scenarios. You can defind any object here and it will be unique for each scenario
         private readonly ScenarioContext _scenarioContext;
         private readonly FeatureContext _featureContext;
@@ -21,11 +25,13 @@ namespace Automated.Steps
         public ExampleStepDefinitions(
             ScenarioContext scenarioContext,
             ExampleContext exampleContext,
-            FeatureContext featureContext)
+            FeatureContext featureContext,
+            IObjectContainer oc)
         {
             _scenarioContext = scenarioContext;
             _exampleContext = exampleContext;
             _featureContext = featureContext;
+            objectContainer = oc;
         }
 
         [Given(@"Simple step"), Scope(Tag = "exampleTag", Scenario = "Example", Feature = "ExampleFeature")]
@@ -35,6 +41,16 @@ namespace Automated.Steps
             _scenarioContext["exampleData"] = 4;
 
             Console.WriteLine(MethodBase.GetCurrentMethod().Name);
+
+            var driver = objectContainer.Resolve<IWebDriver>();
+
+            driver.Url = "https://www.google.com/";
+
+            var element = driver.FindElement(By.XPath("//*[@id='hplogo']"));
+
+            element.Click();
+
+            Thread.Sleep(5000);
         }
 
         [Then(@"Simple step with parameter (.*)")]

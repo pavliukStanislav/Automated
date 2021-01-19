@@ -36,5 +36,7 @@ jobs:
         path: ./output
     - name: where are we
       run: pwd
+    - name: where are we
+      run: ls -a
     - name: Test
       run: dotnet test --no-restore --verbosity normal ./output

@@ -36,3 +36,4 @@ jobs:
         path: ./output
     - name: Test
       run: dotnet test --no-build --verbosity normal --path ./output
+      working-directory: src/automation

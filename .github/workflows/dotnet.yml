@@ -37,6 +37,6 @@ jobs:
     - name: where are we
       run: pwd
     - name: where are we
-      run: ls -a
+      run: ls
     - name: Test
       run: dotnet test --no-restore --verbosity normal ./output

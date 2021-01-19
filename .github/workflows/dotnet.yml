@@ -34,5 +34,7 @@ jobs:
       with:
         name: builded_tests
         path: ./output
+    - name: where are we
+      run: pwd
     - name: Test
       run: dotnet test --no-restore --verbosity normal ./output

@@ -19,12 +19,13 @@ jobs:
     - name: Restore dependencies
       run: dotnet restore
     - name: Build
-      run: dotnet build --no-restore --configuration Release --output ./output
+      run: dotnet build --no-restore --configuration Release
     - name: Archive production artifacts
       uses: actions/upload-artifact@v2
       with: 
         name: builded_tests
         path: /home/runner/.dotnet
+
   run_tests:
     needs: build
     runs-on: ubuntu-latest

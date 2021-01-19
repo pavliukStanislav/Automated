@@ -33,7 +33,7 @@ jobs:
       uses: actions/download-artifact@v2
       with:
         name: builded_tests
-        path: ./output
+        path: /home/runner/.dotnet
     - name: where are we
       run: pwd
     - name: where are we

@@ -20,10 +20,17 @@ jobs:
       run: dotnet restore
     - name: Build
       run: dotnet build --no-restore
-
+    - name: Archive production artifacts
+      uses: actions/upload-artifact@v2
+      with: 
+        name: builded_tests
   run_tests:
     needs: build
     runs-on: ubuntu-latest
     steps:
+    - name: get builded tests project
+      uses: actions/download-artifact@v2
+      with:
+        name: builded_tests
     - name: Test
       run: dotnet test --no-build --verbosity normal

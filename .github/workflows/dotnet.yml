@@ -24,7 +24,7 @@ jobs:
       uses: actions/upload-artifact@v2
       with: 
         name: builded_tests
-        path: /home/runner/.dotnet
+        path: /home/runner/work/Automated/Automated
 
   run_tests:
     needs: build

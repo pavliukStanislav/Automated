@@ -25,7 +25,10 @@ namespace Automated.Hooks
         {
             Console.WriteLine(MethodBase.GetCurrentMethod().Name);
 
-            var webDriver = new ChromeDriver();
+            var options = new ChromeOptions();
+            options.AddArgument("headless");
+
+            var webDriver = new ChromeDriver(options);
             objectContainer.RegisterInstanceAs<IWebDriver>(webDriver);
 
             //example of getting scenario data

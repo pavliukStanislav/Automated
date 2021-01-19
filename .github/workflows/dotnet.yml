@@ -33,12 +33,8 @@ jobs:
       uses: actions/download-artifact@v2
       with:
         name: builded_tests
-        path: /home/runner/.dotnet
-    - name: cd
-      run: cd /home/runner/.dotnet
+        path: /home/runner/work/Automated/Automated
     - name: where are we
       run: pwd
-    - name: where are we
-      run: ls
     - name: Test
-      run: dotnet test --no-restore --verbosity normal ./output
+      run: dotnet test --no-restore --verbosity normal

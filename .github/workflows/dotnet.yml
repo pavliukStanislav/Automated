@@ -24,7 +24,7 @@ jobs:
       uses: actions/upload-artifact@v2
       with: 
         name: builded_tests
-        path: ${{ env.DOTNET_ROOT}}
+        path: /home/runner/work/Automated/Automated
 
   run_tests:
     needs: build
@@ -34,7 +34,7 @@ jobs:
       uses: actions/download-artifact@v2
       with:
         name: builded_tests
-        path: ${{ env.DOTNET_ROOT}}
+        path: /home/runner/work/Automated/Automated
     - name: where are we
       run: pwd
     - name: Test

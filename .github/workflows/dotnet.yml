@@ -6,7 +6,7 @@ on:
     branches: [ main ]
 
 jobs:
-  build:
+  build_runTests:
 
     runs-on: ubuntu-latest
 
@@ -19,23 +19,6 @@ jobs:
     - name: Restore dependencies
       run: dotnet restore
     - name: Build
-      run: dotnet build --no-restore --configuration Release
-    - name: Archive production artifacts
-      uses: actions/upload-artifact@v2
-      with: 
-        name: builded_tests
-        path: /home/runner/work/Automated/Automated
-
-  run_tests:
-    needs: build
-    runs-on: ubuntu-latest
-    steps:
-    - name: get builded tests project
-      uses: actions/download-artifact@v2
-      with:
-        name: builded_tests
-        path: /home/runner/work/Automated/Automated
-    - name: where are we
-      run: pwd
+      run: dotnet build --no-restore
     - name: Test
-      run: dotnet test
+      run: dotnet test --no-build --verbosity normal

@@ -39,7 +39,7 @@ jobs:
         allure_results: /home/runner/work/Automated/Automated/Automated/bin/Debug/net5.0/allure-results
         gh_pages: gh-pages
         allure_report: allure-report
-        allure_history: allure-history
+        allure_history: /home/runner/work/Automated/Automated/gh-pages/allure-history
 
     - name: Deploy report to Github Pages
       if: always()

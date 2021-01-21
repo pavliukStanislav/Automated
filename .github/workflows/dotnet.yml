@@ -36,6 +36,7 @@ jobs:
       if: always()
       with:
         allure_results: /home/runner/work/Automated/Automated/Automated/bin/Debug/net5.0/allure-results
+        allure_history: last-history
 
     - name: Deploy report to Github Pages
       if: always()
@@ -43,4 +44,4 @@ jobs:
       env:
         PERSONAL_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         PUBLISH_BRANCH: gh-pages
-        PUBLISH_DIR: last-history
+        PUBLISH_DIR: allure-history

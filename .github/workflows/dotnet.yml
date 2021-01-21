@@ -22,22 +22,15 @@ jobs:
       run: dotnet build --no-restore
     - name: Test
       run: dotnet test --no-build --verbosity normal    
+
     - name: Get Allure history
       uses: actions/checkout@v2
       if: always()
       continue-on-error: true
       with:
         ref: gh-pages
-        path: gh-pages
-    - name: Allure version
-      if: always()
-      run: ls
-    - name: Find report
-      if: always()
-      run: |
-        cd Automated/bin/Debug/net5.0
-        ls
-    - name: Allure Report action
+        path: gh-pages    
+    - name: Generate Allure Report
       uses: simple-elf/allure-report-action@master
       if: always()
       with:

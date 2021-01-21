@@ -1,4 +1,12 @@
 {
+  "allure": {
+    "directory": "allure-results",
+    "links": [
+      "{link}",
+      "{issue}",
+      "{tms}"
+    ]
+  },
   "specflow": {
     "stepArguments": {
       "convertToParameters": "true",

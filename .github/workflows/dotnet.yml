@@ -36,7 +36,7 @@ jobs:
       if: always()
       with:
         allure_results: /home/runner/work/Automated/Automated/Automated/bin/Debug/net5.0/allure-results
-        allure_history: last-history
+        allure_history: /home/runner/work/Automated/Automated/gh-pages/allure-history
 
     - name: Deploy report to Github Pages
       if: always()

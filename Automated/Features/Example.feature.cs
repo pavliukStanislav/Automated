@@ -150,14 +150,16 @@ this.ScenarioInitialize(scenarioInfo);
         
         [NUnit.Framework.TestAttribute()]
         [NUnit.Framework.DescriptionAttribute("Assist helpers")]
-        [NUnit.Framework.CategoryAttribute("tms:auto_honda_accord_26736369.html")]
-        [NUnit.Framework.CategoryAttribute("link:auto_honda_accord_26736369.html")]
+        [NUnit.Framework.CategoryAttribute("tms:thisIsTms")]
+        [NUnit.Framework.CategoryAttribute("link:thisIsLink")]
+        [NUnit.Framework.CategoryAttribute("issue:thisIsIssue")]
         [NUnit.Framework.CategoryAttribute("critical")]
         public virtual void AssistHelpers()
         {
             string[] tagsOfScenario = new string[] {
-                    "tms:auto_honda_accord_26736369.html",
-                    "link:auto_honda_accord_26736369.html",
+                    "tms:thisIsTms",
+                    "link:thisIsLink",
+                    "issue:thisIsIssue",
                     "critical"};
             System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Assist helpers", null, tagsOfScenario, argumentsOfScenario);

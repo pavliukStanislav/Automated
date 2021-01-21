@@ -35,8 +35,8 @@
     },
     "links": {
       "link": "^link:(.+)",
-      "issue": "^issue:(\\d+)",
-      "tms": "^tms:(\\d+)"
+      "issue": "^issue:(.+)",
+      "tms": "^tms:(.+)"
     }
   }
 }

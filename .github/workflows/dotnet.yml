@@ -49,6 +49,9 @@ jobs:
       run: |
         cd Automated
         ls
+    - name: Allure version21
+      if: always()
+      run: ls
     - name: Allure version3
       if: always()
       run: |

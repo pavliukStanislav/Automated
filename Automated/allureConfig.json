@@ -2,9 +2,9 @@
   "allure": {
     "directory": "allure-results",
     "links": [
-      "https://example.org/{link}",
-      "https://example.org/{issue}",
-      "https://example.org/{tms}"
+      "https://auto.ria.com/uk/{link}",
+      "https://auto.ria.com/uk/{issue}",
+      "https://auto.ria.com/uk/{tms}"
     ]
   },
   "specflow": {

@@ -22,7 +22,9 @@ jobs:
       run: dotnet build --no-restore
     - name: Test
       run: dotnet test --no-build --verbosity normal
-
+    - name: Allure version
+      if: always()
+      run: ls
     - name: Get Allure history
       uses: actions/checkout@v2
       if: always()
@@ -48,24 +50,21 @@ jobs:
       if: always()
       run: |
         cd Automated
-        ls
-    - name: Allure version21
-      if: always()
-      run: ls
+        ls    
     - name: Allure version3
       if: always()
       run: |
-        cd ../allure-history
+        cd allure-history
         ls
     - name: Allure version4
       if: always()
       run: |
-        cd ../allure-report
+        cd allure-report
         ls
     - name: Allure version5
       if: always()
       run: |
-        cd ../gh-pages
+        cd gh-pages
         ls
     - name: Deploy report to Github Pages
       if: always()

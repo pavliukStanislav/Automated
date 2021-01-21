@@ -9,6 +9,7 @@ Scenario: Example
 	| name1  | name2  |
 	| data11 | data12 |
 	| data21 | data22 |
+	| data241 | data3422 |
 	Then Simple step with parameter 120
 	And Some step with argument transformation in 15 days
 	When Some step with 'Monthly budget' xlsx file transformation

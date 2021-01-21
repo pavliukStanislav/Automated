@@ -2,9 +2,9 @@
   "allure": {
     "directory": "allure-results",
     "links": [
-      "{link}",
-      "{issue}",
-      "{tms}"
+      "https://example.org/{link}",
+      "https://example.org/{issue}",
+      "https://example.org/{tms}"
     ]
   },
   "specflow": {

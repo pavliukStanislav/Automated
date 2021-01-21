@@ -18,7 +18,7 @@ Scenario: Example
 	| data11 | data12 |
 	| data21 | data22 |
 
-@tms:auto_honda_accord_26736369 @link:auto_honda_accord_26736369 @issue:auto_honda_accord_26736369 @critical
+@tms:auto_honda_accord_26736369.html @link:auto_honda_accord_26736369.html @critical
 Scenario: Assist helpers
 	Given Create instance from table
 	| Field  | Value |

@@ -117,16 +117,19 @@ this.ScenarioInitialize(scenarioInfo);
                 table1.AddRow(new string[] {
                             "data21",
                             "data22"});
+                table1.AddRow(new string[] {
+                            "data241",
+                            "data3422"});
 #line 8
  testRunner.When("Table step", ((string)(null)), table1, "When ");
 #line hidden
-#line 12
+#line 13
  testRunner.Then("Simple step with parameter 120", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
-#line 13
+#line 14
  testRunner.And("Some step with argument transformation in 15 days", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 14
+#line 15
  testRunner.When("Some step with \'Monthly budget\' xlsx file transformation", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
                 TechTalk.SpecFlow.Table table2 = new TechTalk.SpecFlow.Table(new string[] {
@@ -138,7 +141,7 @@ this.ScenarioInitialize(scenarioInfo);
                 table2.AddRow(new string[] {
                             "data21",
                             "data22"});
-#line 15
+#line 16
  testRunner.When("Table step with transformation", ((string)(null)), table2, "When ");
 #line hidden
             }
@@ -147,12 +150,18 @@ this.ScenarioInitialize(scenarioInfo);
         
         [NUnit.Framework.TestAttribute()]
         [NUnit.Framework.DescriptionAttribute("Assist helpers")]
+        [NUnit.Framework.CategoryAttribute("tms:auto_honda_accord_26736369.html")]
+        [NUnit.Framework.CategoryAttribute("link:auto_honda_accord_26736369.html")]
+        [NUnit.Framework.CategoryAttribute("critical")]
         public virtual void AssistHelpers()
         {
-            string[] tagsOfScenario = ((string[])(null));
+            string[] tagsOfScenario = new string[] {
+                    "tms:auto_honda_accord_26736369.html",
+                    "link:auto_honda_accord_26736369.html",
+                    "critical"};
             System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Assist helpers", null, tagsOfScenario, argumentsOfScenario);
-#line 20
+#line 22
 this.ScenarioInitialize(scenarioInfo);
 #line hidden
             bool isScenarioIgnored = default(bool);
@@ -181,7 +190,7 @@ this.ScenarioInitialize(scenarioInfo);
                 table3.AddRow(new string[] {
                             "Second",
                             "secondData"});
-#line 21
+#line 23
  testRunner.Given("Create instance from table", ((string)(null)), table3, "Given ");
 #line hidden
                 TechTalk.SpecFlow.Table table4 = new TechTalk.SpecFlow.Table(new string[] {
@@ -190,7 +199,7 @@ this.ScenarioInitialize(scenarioInfo);
                 table4.AddRow(new string[] {
                             "asdwed",
                             "secondData"});
-#line 26
+#line 28
  testRunner.When("Create another instanse from tabe", ((string)(null)), table4, "When ");
 #line hidden
                 TechTalk.SpecFlow.Table table5 = new TechTalk.SpecFlow.Table(new string[] {
@@ -199,7 +208,7 @@ this.ScenarioInitialize(scenarioInfo);
                 table5.AddRow(new string[] {
                             "First perfect",
                             "Second perfect"});
-#line 30
+#line 32
  testRunner.And("Compare instance", ((string)(null)), table5, "And ");
 #line hidden
             }
@@ -215,7 +224,7 @@ this.ScenarioInitialize(scenarioInfo);
                     "ignore"};
             System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Not implemented steps", null, tagsOfScenario, argumentsOfScenario);
-#line 35
+#line 37
 this.ScenarioInitialize(scenarioInfo);
 #line hidden
             bool isScenarioIgnored = default(bool);
@@ -235,7 +244,7 @@ this.ScenarioInitialize(scenarioInfo);
             else
             {
                 this.ScenarioStart();
-#line 36
+#line 38
  testRunner.Given("something", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
             }
@@ -252,7 +261,7 @@ this.ScenarioInitialize(scenarioInfo);
             System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
             argumentsOfScenario.Add("some_parameter", some_Parameter);
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("WOrking with examples", null, tagsOfScenario, argumentsOfScenario);
-#line 38
+#line 40
 this.ScenarioInitialize(scenarioInfo);
 #line hidden
             bool isScenarioIgnored = default(bool);
@@ -272,7 +281,7 @@ this.ScenarioInitialize(scenarioInfo);
             else
             {
                 this.ScenarioStart();
-#line 39
+#line 41
  testRunner.Given(string.Format("some step with {0} from example", some_Parameter), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
             }

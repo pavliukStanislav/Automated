@@ -18,6 +18,7 @@ Scenario: Example
 	| data11 | data12 |
 	| data21 | data22 |
 
+@tms:TMS-1 @link:link-1 @issue:issue-1
 Scenario: Assist helpers
 	Given Create instance from table
 	| Field  | Value |

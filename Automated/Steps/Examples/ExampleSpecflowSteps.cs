@@ -37,7 +37,7 @@ namespace Automated.Steps
             Console.WriteLine(MethodBase.GetCurrentMethod().Name);
 
             //var driver = objectContainer.Resolve<IWebDriver>();
-            //driver.Url = "https://www.google.com/";
+            //driver.Url = "https://www.google.com/"; 
             //var element = driver.FindElement(By.XPath("//*[@id='hplogo']"));
             //element.Click();
         }

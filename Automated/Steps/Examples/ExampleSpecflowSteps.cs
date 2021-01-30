@@ -106,7 +106,6 @@ namespace Automated.Steps
             Console.WriteLine("simple then for report");
         }
 
-
         private async Task GetTask()
         {
         }

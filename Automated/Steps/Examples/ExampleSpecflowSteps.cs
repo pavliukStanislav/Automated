@@ -99,7 +99,7 @@ namespace Automated.Steps
         {
             Console.WriteLine("simple when for report");
         }
-
+         
         [Then(@"simple then for report")]
         public void ThenSimpleThenForReport()
         {

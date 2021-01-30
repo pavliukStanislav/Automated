@@ -6,6 +6,7 @@
     "feature": "en-us"
   },
   "stepAssemblies": [
+    { "assembly": "Automated" },
     { "assembly": "Allure.SpecFlowPlugin" }
   ]
 }

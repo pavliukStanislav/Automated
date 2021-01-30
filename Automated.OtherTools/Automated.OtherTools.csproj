@@ -8,8 +8,4 @@
     <PackageReference Include="Syncfusion.XlsIO.Net.Core" Version="18.4.0.35" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Temp\" />
-  </ItemGroup>
-
 </Project>

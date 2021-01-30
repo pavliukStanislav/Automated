@@ -1,4 +1,4 @@
-﻿namespace Automated.Data
+﻿namespace Automated.Data.Examples
 {
     public enum FileExtension
     {

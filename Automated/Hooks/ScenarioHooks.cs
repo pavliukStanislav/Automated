@@ -23,7 +23,7 @@ namespace Automated.Hooks
         [BeforeScenario(Order = 0)]
         public void BeforeScenario()
         {
-            Console.WriteLine(MethodBase.GetCurrentMethod().Name);
+            //Console.WriteLine(MethodBase.GetCurrentMethod().Name);
 
             //todo rework it
             //var options = new ChromeOptions();
@@ -39,7 +39,7 @@ namespace Automated.Hooks
         [AfterScenario(Order = 0)]
         public void AfterScenario()
         {
-            Console.WriteLine(MethodBase.GetCurrentMethod().Name);
+            //Console.WriteLine(MethodBase.GetCurrentMethod().Name);
 
             //todo need to be reworked
             ////example error handling

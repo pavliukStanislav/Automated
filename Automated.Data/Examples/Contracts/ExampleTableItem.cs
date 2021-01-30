@@ -1,4 +1,4 @@
-﻿namespace Automated.Data.Contracts
+﻿namespace Automated.Data.Examples.Contracts
 {
     public class ExampleTableItem
     {

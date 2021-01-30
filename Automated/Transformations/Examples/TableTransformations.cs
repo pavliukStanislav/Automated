@@ -1,9 +1,9 @@
-﻿using Automated.Data.Contracts;
+﻿using Automated.Data.Examples.Contracts;
 using System.Collections.Generic;
 using TechTalk.SpecFlow;
 using TechTalk.SpecFlow.Assist;
 
-namespace Automated.Transformations
+namespace Automated.Transformations.Examples
 {
     [Binding]
     public class TableTransformations

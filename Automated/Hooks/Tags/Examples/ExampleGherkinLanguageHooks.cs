@@ -1,7 +1,7 @@
 ﻿using System;
 using TechTalk.SpecFlow;
 
-namespace Automated.Hooks
+namespace Automated.Hooks.Tags.Examples
 {
     [Binding]
     public class ExampleGherkinLanguageHooks

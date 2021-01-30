@@ -1,4 +1,4 @@
-﻿using Automated.Data.Contracts;
+﻿using Automated.Data.Examples.Contracts;
 using System;
 using TechTalk.SpecFlow;
 using TechTalk.SpecFlow.Assist;

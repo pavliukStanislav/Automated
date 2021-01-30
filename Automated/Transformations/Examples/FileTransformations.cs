@@ -1,9 +1,10 @@
 ﻿using Automated.Data;
+using Automated.Data.Examples;
 using Syncfusion.XlsIO;
 using System.IO;
 using TechTalk.SpecFlow;
 
-namespace Automated.Transformations
+namespace Automated.Transformations.Examples
 {
     [Binding]
     public class FileTransformations
@@ -21,7 +22,7 @@ namespace Automated.Transformations
                 {
                     return app.Workbooks.Open(fileStream, ExcelOpenType.Automatic);
                 }
-            }            
+            }
         }
     }
 }

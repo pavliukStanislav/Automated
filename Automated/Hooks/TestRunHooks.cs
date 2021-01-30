@@ -11,13 +11,13 @@ namespace Automated.Hooks
         [BeforeTestRun]
         public static void BeforeTestRun()
         {
-            Console.WriteLine(MethodBase.GetCurrentMethod().Name);
+            //Console.WriteLine(MethodBase.GetCurrentMethod().Name);
         }
 
         [AfterTestRun]
         public static void AfterTestRun()
         {
-            Console.WriteLine(MethodBase.GetCurrentMethod().Name);
+            //Console.WriteLine(MethodBase.GetCurrentMethod().Name);
         }
     }
 }

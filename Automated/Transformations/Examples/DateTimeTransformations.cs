@@ -1,7 +1,7 @@
 ﻿using System;
 using TechTalk.SpecFlow;
 
-namespace Automated.Transformations
+namespace Automated.Transformations.Examples
 {
     [Binding]
     public class DateTimeTransformations

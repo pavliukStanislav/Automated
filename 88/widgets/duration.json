@@ -1,0 +1,91 @@
+[ {
+  "uid" : "6ac9eed8d3d60b8b",
+  "name" : "Tag scoping example",
+  "time" : {
+    "start" : 1612048456985,
+    "stop" : 1612048456986,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e7ebc9ae3464b1c2",
+  "name" : "Scenario outline example",
+  "time" : {
+    "start" : 1612048456346,
+    "stop" : 1612048456349,
+    "duration" : 3
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4c19b8c149b1df50",
+  "name" : "Assist helpers",
+  "time" : {
+    "start" : 1612048456306,
+    "stop" : 1612048456361,
+    "duration" : 55
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "daf4d53776fcd10c",
+  "name" : "This is sime tests ofr checking allure report",
+  "time" : {
+    "start" : 1612048456987,
+    "stop" : 1612048456989,
+    "duration" : 2
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "94b58b04280be115",
+  "name" : "Scenario outline example",
+  "time" : {
+    "start" : 1612048456359,
+    "stop" : 1612048456360,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3223e6260e81009b",
+  "name" : "Basic keywords example",
+  "time" : {
+    "start" : 1612048456293,
+    "stop" : 1612048456327,
+    "duration" : 34
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "55fa73c6f46fa076",
+  "name" : "Different parameters and transformations",
+  "time" : {
+    "start" : 1612048456362,
+    "stop" : 1612048456933,
+    "duration" : 571
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4ab6e68625c86fcc",
+  "name" : "Scenario with large string",
+  "time" : {
+    "start" : 1612048456363,
+    "stop" : 1612048456364,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "16979ac30578cfe3",
+  "name" : "Scenario with table",
+  "time" : {
+    "start" : 1612048456365,
+    "stop" : 1612048456370,
+    "duration" : 5
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

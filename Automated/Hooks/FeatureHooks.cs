@@ -9,21 +9,21 @@ namespace Automated.Hooks
     {
         private readonly FeatureContext _feaureContext;
 
-        public FeatureHooks(FeatureContext fc)
+        public FeatureHooks(FeatureContext featureContext)
         {
-            _feaureContext = fc;
+            _feaureContext = featureContext;
         }
 
         [BeforeFeature(Order = 0)]
         public static void BeforeFeature()
         {
-            Console.WriteLine(MethodBase.GetCurrentMethod().Name);
+            //Console.WriteLine(MethodBase.GetCurrentMethod().Name);
         }
 
         [AfterFeature(Order = 0)]
         public static void AfterFeature()
         {
-            Console.WriteLine(MethodBase.GetCurrentMethod().Name);
+            //Console.WriteLine(MethodBase.GetCurrentMethod().Name);
         }
     }
 }

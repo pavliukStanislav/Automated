@@ -10,13 +10,13 @@ namespace Automated.Hooks
     [Binding]
     public class ScenarioHooks
     {
-        private readonly IObjectContainer objectContainer;
-        private ScenarioContext scenarioContext;
+        private readonly IObjectContainer _objectContainer;
+        private readonly ScenarioContext _scenarioContext;
 
-        public ScenarioHooks(IObjectContainer oc, ScenarioContext sc)
+        public ScenarioHooks(IObjectContainer objectContainer, ScenarioContext scenarioContext)
         {
-            objectContainer = oc;
-            scenarioContext = sc;
+            _objectContainer = objectContainer;
+            _scenarioContext = scenarioContext;
         }
 
         //todo use DI in elements and framework
@@ -25,14 +25,15 @@ namespace Automated.Hooks
         {
             Console.WriteLine(MethodBase.GetCurrentMethod().Name);
 
-            var options = new ChromeOptions();
-            options.AddArgument("headless");
+            //todo rework it
+            //var options = new ChromeOptions();
+            //options.AddArgument("headless");
 
-            var webDriver = new ChromeDriver(options);
-            objectContainer.RegisterInstanceAs<IWebDriver>(webDriver);
+            //var webDriver = new ChromeDriver(options);
+            //_objectContainer.RegisterInstanceAs<IWebDriver>(webDriver);
 
-            //example of getting scenario data
-            Console.WriteLine("Scenario title: " + scenarioContext.ScenarioInfo.Title);
+            ////example of getting scenario data
+            //Console.WriteLine("Scenario title: " + _scenarioContext.ScenarioInfo.Title);
         }
 
         [AfterScenario(Order = 0)]
@@ -40,17 +41,18 @@ namespace Automated.Hooks
         {
             Console.WriteLine(MethodBase.GetCurrentMethod().Name);
 
-            //example error handling
-            if (scenarioContext.TestError != null)
-            {
-                var error = scenarioContext.TestError;
+            //todo need to be reworked
+            ////example error handling
+            //if (_scenarioContext.TestError != null)
+            //{
+            //    var error = _scenarioContext.TestError;
 
-                Console.WriteLine("An error acured: " + error.Message);
-            }
+            //    Console.WriteLine("An error acured: " + error.Message);
+            //}
 
-            var driver = objectContainer.Resolve<IWebDriver>();
-            driver.Quit();
-            driver.Dispose();
+            //var driver = _objectContainer.Resolve<IWebDriver>();
+            //driver.Quit();
+            //driver.Dispose();
         }
     }
 }

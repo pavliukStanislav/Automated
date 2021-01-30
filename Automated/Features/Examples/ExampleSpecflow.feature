@@ -32,3 +32,8 @@ Scenario: Assist helpers
 @ignore
 Scenario: Ignored test
 	Given something
+
+Scenario: This is sime tests ofr checking allure report
+	Given simple given for report
+	When simple when foe report
+	Then simple then for report

@@ -88,6 +88,25 @@ namespace Automated.Steps
             Console.WriteLine("Some step with xlsx file transformation");
         }
 
+        [Given(@"simple given for report")]
+        public void GivenSimpleGivenForReport()
+        {
+            Console.WriteLine("simple given for report");
+        }
+
+        [When(@"simple when foe report")]
+        public void WhenSimpleWhenFoeReport()
+        {
+            Console.WriteLine("simple when for report");
+        }
+
+        [Then(@"simple then for report")]
+        public void ThenSimpleThenForReport()
+        {
+            Console.WriteLine("simple then for report");
+        }
+
+
         private async Task GetTask()
         {
         }

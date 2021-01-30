@@ -5,7 +5,7 @@
 Scenario: Tag scoping example
 	Given Simple scoped step
 
-Scenario: Example
+Scenario: Different parameters and transformations
 	Given Simple step
 	And Async step
 	Then Simple step with parameter 120

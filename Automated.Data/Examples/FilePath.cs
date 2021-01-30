@@ -7,6 +7,6 @@ namespace Automated.Data
     {
         private static string AssemblyLocation => Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
 
-        public static string XlsxFiles = Path.Combine(AssemblyLocation, "Files", "Xlsx");
+        public static string XlsxFiles = Path.Combine(AssemblyLocation, "Examples", "Files", "Xlsx");
     }
 }

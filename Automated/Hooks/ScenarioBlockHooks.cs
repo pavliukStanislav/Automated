@@ -10,13 +10,13 @@ namespace Automated.Hooks
         [BeforeScenarioBlock(Order = 0)]
         public void BeforeScenarioBlock()
         {
-            Console.WriteLine(MethodBase.GetCurrentMethod().Name);
+            //Console.WriteLine(MethodBase.GetCurrentMethod().Name);
         }
 
         [AfterScenarioBlock(Order = 0)]
         public void AfterScenarioBlock()
         {
-            Console.WriteLine(MethodBase.GetCurrentMethod().Name);
+            //Console.WriteLine(MethodBase.GetCurrentMethod().Name);
         }
     }
 }

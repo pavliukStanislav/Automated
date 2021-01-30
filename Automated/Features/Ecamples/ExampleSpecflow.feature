@@ -1,5 +1,5 @@
-﻿Feature: ExampleFeature
-
+﻿Feature: Example specflow
+	
 
 @exampleTag
 Scenario: Example

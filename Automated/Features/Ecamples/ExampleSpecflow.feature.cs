@@ -20,22 +20,22 @@ namespace Automated.Features.Ecamples
     [System.CodeDom.Compiler.GeneratedCodeAttribute("TechTalk.SpecFlow", "3.5.0.0")]
     [System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     [NUnit.Framework.TestFixtureAttribute()]
-    [NUnit.Framework.DescriptionAttribute("ExampleFeature")]
-    public partial class ExampleFeatureFeature
+    [NUnit.Framework.DescriptionAttribute("Example specflow")]
+    public partial class ExampleSpecflowFeature
     {
         
         private TechTalk.SpecFlow.ITestRunner testRunner;
         
         private string[] _featureTags = ((string[])(null));
         
-#line 1 "Example.feature"
+#line 1 "ExampleSpecflow.feature"
 #line hidden
         
         [NUnit.Framework.OneTimeSetUpAttribute()]
         public virtual void FeatureSetup()
         {
             testRunner = TechTalk.SpecFlow.TestRunnerManager.GetTestRunner();
-            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "Features/Ecamples", "ExampleFeature", null, ProgrammingLanguage.CSharp, ((string[])(null)));
+            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "Features/Ecamples", "Example specflow", null, ProgrammingLanguage.CSharp, ((string[])(null)));
             testRunner.OnFeatureStart(featureInfo);
         }
         
@@ -108,20 +108,20 @@ this.ScenarioInitialize(scenarioInfo);
 #line 7
  testRunner.And("Async step", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-                TechTalk.SpecFlow.Table table1 = new TechTalk.SpecFlow.Table(new string[] {
+                TechTalk.SpecFlow.Table table2 = new TechTalk.SpecFlow.Table(new string[] {
                             "name1",
                             "name2"});
-                table1.AddRow(new string[] {
+                table2.AddRow(new string[] {
                             "data11",
                             "data12"});
-                table1.AddRow(new string[] {
+                table2.AddRow(new string[] {
                             "data21",
                             "data22"});
-                table1.AddRow(new string[] {
+                table2.AddRow(new string[] {
                             "data241",
                             "data3422"});
 #line 8
- testRunner.When("Table step", ((string)(null)), table1, "When ");
+ testRunner.When("Table step", ((string)(null)), table2, "When ");
 #line hidden
 #line 13
  testRunner.Then("Simple step with parameter 120", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
@@ -132,17 +132,17 @@ this.ScenarioInitialize(scenarioInfo);
 #line 15
  testRunner.When("Some step with \'Monthly budget\' xlsx file transformation", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
-                TechTalk.SpecFlow.Table table2 = new TechTalk.SpecFlow.Table(new string[] {
+                TechTalk.SpecFlow.Table table3 = new TechTalk.SpecFlow.Table(new string[] {
                             "First",
                             "Second"});
-                table2.AddRow(new string[] {
+                table3.AddRow(new string[] {
                             "data11",
                             "data12"});
-                table2.AddRow(new string[] {
+                table3.AddRow(new string[] {
                             "data21",
                             "data22"});
 #line 16
- testRunner.When("Table step with transformation", ((string)(null)), table2, "When ");
+ testRunner.When("Table step with transformation", ((string)(null)), table3, "When ");
 #line hidden
             }
             this.ScenarioCleanup();
@@ -183,35 +183,35 @@ this.ScenarioInitialize(scenarioInfo);
             else
             {
                 this.ScenarioStart();
-                TechTalk.SpecFlow.Table table3 = new TechTalk.SpecFlow.Table(new string[] {
+                TechTalk.SpecFlow.Table table4 = new TechTalk.SpecFlow.Table(new string[] {
                             "Field",
                             "Value"});
-                table3.AddRow(new string[] {
+                table4.AddRow(new string[] {
                             "First",
                             "sda"});
-                table3.AddRow(new string[] {
+                table4.AddRow(new string[] {
                             "Second",
                             "secondData"});
 #line 23
- testRunner.Given("Create instance from table", ((string)(null)), table3, "Given ");
-#line hidden
-                TechTalk.SpecFlow.Table table4 = new TechTalk.SpecFlow.Table(new string[] {
-                            "First",
-                            "Second"});
-                table4.AddRow(new string[] {
-                            "asdwed",
-                            "secondData"});
-#line 28
- testRunner.When("Create another instanse from tabe", ((string)(null)), table4, "When ");
+ testRunner.Given("Create instance from table", ((string)(null)), table4, "Given ");
 #line hidden
                 TechTalk.SpecFlow.Table table5 = new TechTalk.SpecFlow.Table(new string[] {
                             "First",
                             "Second"});
                 table5.AddRow(new string[] {
+                            "asdwed",
+                            "secondData"});
+#line 28
+ testRunner.When("Create another instanse from tabe", ((string)(null)), table5, "When ");
+#line hidden
+                TechTalk.SpecFlow.Table table6 = new TechTalk.SpecFlow.Table(new string[] {
+                            "First",
+                            "Second"});
+                table6.AddRow(new string[] {
                             "First perfect",
                             "Second perfect"});
 #line 32
- testRunner.And("Compare instance", ((string)(null)), table5, "And ");
+ testRunner.And("Compare instance", ((string)(null)), table6, "And ");
 #line hidden
             }
             this.ScenarioCleanup();

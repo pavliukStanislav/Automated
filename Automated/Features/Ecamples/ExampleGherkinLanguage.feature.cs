@@ -247,17 +247,17 @@ this.ScenarioInitialize(scenarioInfo);
 #line 4
 this.FeatureBackground();
 #line hidden
-                TechTalk.SpecFlow.Table table6 = new TechTalk.SpecFlow.Table(new string[] {
+                TechTalk.SpecFlow.Table table1 = new TechTalk.SpecFlow.Table(new string[] {
                             "First",
                             "Second"});
-                table6.AddRow(new string[] {
+                table1.AddRow(new string[] {
                             "data11",
                             "data12"});
-                table6.AddRow(new string[] {
+                table1.AddRow(new string[] {
                             "data21",
                             "data22"});
 #line 34
- testRunner.Given("this is given with table", ((string)(null)), table6, "Given ");
+ testRunner.Given("this is given with table", ((string)(null)), table1, "Given ");
 #line hidden
             }
             this.ScenarioCleanup();

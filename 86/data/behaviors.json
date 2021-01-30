@@ -1,0 +1,130 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "children" : [ {
+    "name" : "Exmple with Gherkin Language",
+    "children" : [ {
+      "name" : "Basic keywords example",
+      "uid" : "3ac5c13b5a8150b0",
+      "parentUid" : "5ad470f2dfffe3f3b8f8e99a1ce405da",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612047577658,
+        "stop" : 1612047577692,
+        "duration" : 34
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Scenario outline example",
+      "uid" : "be0364ae383b18fe",
+      "parentUid" : "5ad470f2dfffe3f3b8f8e99a1ce405da",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612047577703,
+        "stop" : 1612047577705,
+        "duration" : 2
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "1", "2" ]
+    }, {
+      "name" : "Scenario outline example",
+      "uid" : "d379d9f59443f2de",
+      "parentUid" : "5ad470f2dfffe3f3b8f8e99a1ce405da",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612047577705,
+        "stop" : 1612047577706,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "3", "4" ]
+    }, {
+      "name" : "Scenario with large string",
+      "uid" : "14db6f84529e04b8",
+      "parentUid" : "5ad470f2dfffe3f3b8f8e99a1ce405da",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612047577713,
+        "stop" : 1612047577715,
+        "duration" : 2
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Scenario with table",
+      "uid" : "3994495cefc79e1c",
+      "parentUid" : "5ad470f2dfffe3f3b8f8e99a1ce405da",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612047577716,
+        "stop" : 1612047577719,
+        "duration" : 3
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "5ad470f2dfffe3f3b8f8e99a1ce405da"
+  }, {
+    "name" : "Example specflow",
+    "children" : [ {
+      "name" : "Assist helpers",
+      "uid" : "b75e69fcebc5513a",
+      "parentUid" : "ae6b46b6cd07638e3d5dc7479a6f73bc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612047577664,
+        "stop" : 1612047577702,
+        "duration" : 38
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Different parameters and transformations",
+      "uid" : "8ea3b893d5825c20",
+      "parentUid" : "ae6b46b6cd07638e3d5dc7479a6f73bc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612047577713,
+        "stop" : 1612047578137,
+        "duration" : 424
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Tag scoping example",
+      "uid" : "512c07ee77086672",
+      "parentUid" : "ae6b46b6cd07638e3d5dc7479a6f73bc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612047578182,
+        "stop" : 1612047578183,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "This is sime tests ofr checking allure report",
+      "uid" : "f7191357655b7a30",
+      "parentUid" : "ae6b46b6cd07638e3d5dc7479a6f73bc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612047578184,
+        "stop" : 1612047578186,
+        "duration" : 2
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "ae6b46b6cd07638e3d5dc7479a6f73bc"
+  } ],
+  "name" : "behaviors"
+}

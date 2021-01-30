@@ -1,7 +1,5 @@
 ﻿Feature: Exmple with Gherkin Language
 
-Scenarios with gherkin language examples
-
 Background:
 	Given this is given for all scenarious in feature
 

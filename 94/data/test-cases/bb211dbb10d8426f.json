@@ -1,0 +1,184 @@
+{
+  "uid" : "bb211dbb10d8426f",
+  "name" : "Basic keywords example",
+  "fullName" : "Basic keywords example",
+  "historyId" : "Basic keywords example",
+  "time" : {
+    "start" : 1612051163203,
+    "stop" : 1612051163239,
+    "duration" : 36
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "BeforeScenario [0]",
+    "time" : {
+      "start" : 1612051163164,
+      "stop" : 1612051163164,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "SomeTag [10000]",
+    "time" : {
+      "start" : 1612051163164,
+      "stop" : 1612051163164,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "BeforeFeature [0]",
+    "time" : {
+      "start" : 1612051163144,
+      "stop" : 1612051163145,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "AfterScenario [0]",
+    "time" : {
+      "start" : 1612051163239,
+      "stop" : 1612051163240,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "AfterFeature [0]",
+    "time" : {
+      "start" : 1612051163267,
+      "stop" : 1612051163267,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "ParallelWorker#1"
+  }, {
+    "name" : "host",
+    "value" : "fv-az21-386"
+  }, {
+    "name" : "feature",
+    "value" : "Exmple with Gherkin Language"
+  }, {
+    "name" : "tag",
+    "value" : "someTag"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 7,
+        "unknown" : 0,
+        "total" : 7
+      },
+      "items" : [ {
+        "uid" : "a5299b8d6a343699",
+        "reportUrl" : "https://pavliukStanislav.github.io/Automated/93//#testresult/a5299b8d6a343699",
+        "status" : "passed",
+        "time" : {
+          "start" : 1612050450422,
+          "stop" : 1612050450450,
+          "duration" : 28
+        }
+      }, {
+        "uid" : "46022af519cf92bc",
+        "reportUrl" : "https://pavliukStanislav.github.io/Automated/92//#testresult/46022af519cf92bc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1612050193668,
+          "stop" : 1612050193698,
+          "duration" : 30
+        }
+      }, {
+        "uid" : "e3c8300c466b1dca",
+        "reportUrl" : "https://pavliukStanislav.github.io/Automated/91//#testresult/e3c8300c466b1dca",
+        "status" : "passed",
+        "time" : {
+          "start" : 1612049063080,
+          "stop" : 1612049063107,
+          "duration" : 27
+        }
+      }, {
+        "uid" : "3223e6260e81009b",
+        "reportUrl" : "https://pavliukStanislav.github.io/Automated/88//#testresult/3223e6260e81009b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1612048456293,
+          "stop" : 1612048456327,
+          "duration" : 34
+        }
+      }, {
+        "uid" : "3ac5c13b5a8150b0",
+        "reportUrl" : "https://pavliukStanislav.github.io/Automated/86//#testresult/3ac5c13b5a8150b0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1612047577658,
+          "stop" : 1612047577692,
+          "duration" : 34
+        }
+      }, {
+        "uid" : "bc8b6c3fbbcdee7d",
+        "reportUrl" : "https://pavliukStanislav.github.io/Automated/85//#testresult/bc8b6c3fbbcdee7d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1612047073050,
+          "stop" : 1612047073088,
+          "duration" : 38
+        }
+      } ]
+    },
+    "tags" : [ "someTag" ]
+  },
+  "source" : "bb211dbb10d8426f.json",
+  "parameterValues" : [ ]
+}

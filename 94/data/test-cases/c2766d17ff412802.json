@@ -1,0 +1,166 @@
+{
+  "uid" : "c2766d17ff412802",
+  "name" : "Different parameters and transformations",
+  "fullName" : "Different parameters and transformations",
+  "historyId" : "Different parameters and transformations",
+  "time" : {
+    "start" : 1612051163266,
+    "stop" : 1612051163698,
+    "duration" : 432
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "BeforeScenario [0]",
+    "time" : {
+      "start" : 1612051163266,
+      "stop" : 1612051163266,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "BeforeFeature [0]",
+    "time" : {
+      "start" : 1612051163145,
+      "stop" : 1612051163145,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "AfterScenario [0]",
+    "time" : {
+      "start" : 1612051163698,
+      "stop" : 1612051163698,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "AfterFeature [0]",
+    "time" : {
+      "start" : 1612051163747,
+      "stop" : 1612051163747,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "ParallelWorker#2"
+  }, {
+    "name" : "host",
+    "value" : "fv-az21-386"
+  }, {
+    "name" : "feature",
+    "value" : "Example specflow"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 7,
+        "unknown" : 0,
+        "total" : 7
+      },
+      "items" : [ {
+        "uid" : "7ef6556bcdb6d73e",
+        "reportUrl" : "https://pavliukStanislav.github.io/Automated/93//#testresult/7ef6556bcdb6d73e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1612050450465,
+          "stop" : 1612050450953,
+          "duration" : 488
+        }
+      }, {
+        "uid" : "4e3b641652d3ae9f",
+        "reportUrl" : "https://pavliukStanislav.github.io/Automated/92//#testresult/4e3b641652d3ae9f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1612050193722,
+          "stop" : 1612050194265,
+          "duration" : 543
+        }
+      }, {
+        "uid" : "7a3b4d7beb1f1faf",
+        "reportUrl" : "https://pavliukStanislav.github.io/Automated/91//#testresult/7a3b4d7beb1f1faf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1612049063130,
+          "stop" : 1612049063612,
+          "duration" : 482
+        }
+      }, {
+        "uid" : "55fa73c6f46fa076",
+        "reportUrl" : "https://pavliukStanislav.github.io/Automated/88//#testresult/55fa73c6f46fa076",
+        "status" : "passed",
+        "time" : {
+          "start" : 1612048456362,
+          "stop" : 1612048456933,
+          "duration" : 571
+        }
+      }, {
+        "uid" : "8ea3b893d5825c20",
+        "reportUrl" : "https://pavliukStanislav.github.io/Automated/86//#testresult/8ea3b893d5825c20",
+        "status" : "passed",
+        "time" : {
+          "start" : 1612047577713,
+          "stop" : 1612047578137,
+          "duration" : 424
+        }
+      }, {
+        "uid" : "e8e9e62c2b805796",
+        "reportUrl" : "https://pavliukStanislav.github.io/Automated/85//#testresult/e8e9e62c2b805796",
+        "status" : "passed",
+        "time" : {
+          "start" : 1612047073121,
+          "stop" : 1612047073700,
+          "duration" : 579
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "c2766d17ff412802.json",
+  "parameterValues" : [ ]
+}

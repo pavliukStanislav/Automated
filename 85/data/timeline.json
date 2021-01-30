@@ -1,0 +1,134 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "children" : [ {
+    "name" : "fv-az29-638",
+    "children" : [ {
+      "name" : "ParallelWorker#1",
+      "children" : [ {
+        "name" : "Basic keywords example",
+        "uid" : "bc8b6c3fbbcdee7d",
+        "parentUid" : "b87154bd8520644ecabee33472d10b5c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1612047073050,
+          "stop" : 1612047073088,
+          "duration" : 38
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Scenario with table",
+        "uid" : "2cc18337ad6d8e61",
+        "parentUid" : "b87154bd8520644ecabee33472d10b5c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1612047073108,
+          "stop" : 1612047073112,
+          "duration" : 4
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Scenario with large string",
+        "uid" : "b423fa5a855bc8fe",
+        "parentUid" : "b87154bd8520644ecabee33472d10b5c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1612047073106,
+          "stop" : 1612047073107,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Scenario outline example",
+        "uid" : "824977a655af8d08",
+        "parentUid" : "b87154bd8520644ecabee33472d10b5c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1612047073101,
+          "stop" : 1612047073102,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "3", "4" ]
+      }, {
+        "name" : "Scenario outline example",
+        "uid" : "e6890fa9d4cb3d7e",
+        "parentUid" : "b87154bd8520644ecabee33472d10b5c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1612047073098,
+          "stop" : 1612047073100,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "1", "2" ]
+      } ],
+      "uid" : "b87154bd8520644ecabee33472d10b5c"
+    }, {
+      "name" : "ParallelWorker#2",
+      "children" : [ {
+        "name" : "Assist helpers",
+        "uid" : "2b3b52375c9eab31",
+        "parentUid" : "b99a8f10bb967610f362679da3d30056",
+        "status" : "passed",
+        "time" : {
+          "start" : 1612047073060,
+          "stop" : 1612047073120,
+          "duration" : 60
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Different parameters and transformations",
+        "uid" : "e8e9e62c2b805796",
+        "parentUid" : "b99a8f10bb967610f362679da3d30056",
+        "status" : "passed",
+        "time" : {
+          "start" : 1612047073121,
+          "stop" : 1612047073700,
+          "duration" : 579
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Tag scoping example",
+        "uid" : "74ffca5facaf6404",
+        "parentUid" : "b99a8f10bb967610f362679da3d30056",
+        "status" : "passed",
+        "time" : {
+          "start" : 1612047073758,
+          "stop" : 1612047073759,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "This is sime tests ofr checking allure report",
+        "uid" : "fd7e84d93a57ac67",
+        "parentUid" : "b99a8f10bb967610f362679da3d30056",
+        "status" : "passed",
+        "time" : {
+          "start" : 1612047073760,
+          "stop" : 1612047073762,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b99a8f10bb967610f362679da3d30056"
+    } ],
+    "uid" : "1c697503625ac7784a9831835bd0bb9b"
+  } ],
+  "name" : "timeline"
+}

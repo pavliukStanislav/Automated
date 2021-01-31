@@ -16,9 +16,6 @@
 # Mono auto generated files
 mono_crash.*
 
-# Specflow
-*.feature.cs
-
 # Build results
 [Dd]ebug/
 [Dd]ebugPublic/
@@ -351,3 +348,4 @@ MigrationBackup/
 
 # Ionide (cross platform F# VS Code tools) working folder
 .ionide/
+Automated/Features/Examples/*.feature.cs

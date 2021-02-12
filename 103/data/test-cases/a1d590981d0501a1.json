@@ -1,0 +1,256 @@
+{
+  "uid" : "a1d590981d0501a1",
+  "name" : "Assist helpers",
+  "fullName" : "Assist helpers",
+  "historyId" : "Assist helpers",
+  "time" : {
+    "start" : 1613122604513,
+    "stop" : 1613122604551,
+    "duration" : 38
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "BeforeScenario [0]",
+    "time" : {
+      "start" : 1613122604450,
+      "stop" : 1613122604450,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "BeforeFeature [0]",
+    "time" : {
+      "start" : 1613122604430,
+      "stop" : 1613122604431,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given  Create instance from table",
+      "time" : {
+        "start" : 1613122604523,
+        "stop" : 1613122604542,
+        "duration" : 19
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "First",
+        "value" : "sda"
+      }, {
+        "name" : "Second",
+        "value" : "secondData"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When  Create another instanse from tabe",
+      "time" : {
+        "start" : 1613122604542,
+        "stop" : 1613122604544,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "asdwed",
+        "value" : "secondData"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "And  Compare instance",
+      "time" : {
+        "start" : 1613122604544,
+        "stop" : 1613122604551,
+        "duration" : 7
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "First perfect",
+        "value" : "Second perfect"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "AfterScenario [0]",
+    "time" : {
+      "start" : 1613122604552,
+      "stop" : 1613122604552,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "AfterFeature [0]",
+    "time" : {
+      "start" : 1613122605084,
+      "stop" : 1613122605084,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "ParallelWorker#2"
+  }, {
+    "name" : "host",
+    "value" : "fv-az82-199"
+  }, {
+    "name" : "feature",
+    "value" : "Example specflow"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "thisIsTms",
+    "url" : "https://auto.ria.com/uk/thisIsTms",
+    "type" : "tms"
+  }, {
+    "name" : "thisIsLink",
+    "url" : "thisIsLink"
+  }, {
+    "name" : "thisIsIssue",
+    "url" : "https://auto.ria.com/uk/thisIsIssue",
+    "type" : "issue"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 8,
+        "unknown" : 0,
+        "total" : 8
+      },
+      "items" : [ {
+        "uid" : "eee327ccddd1e68d",
+        "reportUrl" : "https://pavliukStanislav.github.io/Automated/102//#testresult/eee327ccddd1e68d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1613122349745,
+          "stop" : 1613122349798,
+          "duration" : 53
+        }
+      }, {
+        "uid" : "a666944484fea686",
+        "reportUrl" : "https://pavliukStanislav.github.io/Automated/102//#testresult/a666944484fea686",
+        "status" : "passed",
+        "time" : {
+          "start" : 1612099675930,
+          "stop" : 1612099675966,
+          "duration" : 36
+        }
+      }, {
+        "uid" : "60f4305c5596128",
+        "reportUrl" : "https://pavliukStanislav.github.io/Automated/101//#testresult/60f4305c5596128",
+        "status" : "passed",
+        "time" : {
+          "start" : 1612098705375,
+          "stop" : 1612098705428,
+          "duration" : 53
+        }
+      }, {
+        "uid" : "e7ae3b4beba1ef23",
+        "reportUrl" : "https://pavliukStanislav.github.io/Automated/100//#testresult/e7ae3b4beba1ef23",
+        "status" : "passed",
+        "time" : {
+          "start" : 1612098661821,
+          "stop" : 1612098661876,
+          "duration" : 55
+        }
+      }, {
+        "uid" : "8c25e7abc3d0efad",
+        "reportUrl" : "https://pavliukStanislav.github.io/Automated/99//#testresult/8c25e7abc3d0efad",
+        "status" : "passed",
+        "time" : {
+          "start" : 1612054377938,
+          "stop" : 1612054377977,
+          "duration" : 39
+        }
+      }, {
+        "uid" : "b0cfc5f6d86dae12",
+        "reportUrl" : "https://pavliukStanislav.github.io/Automated/98//#testresult/b0cfc5f6d86dae12",
+        "status" : "passed",
+        "time" : {
+          "start" : 1612053439124,
+          "stop" : 1612053439178,
+          "duration" : 54
+        }
+      }, {
+        "uid" : "e4222038c3e1aa19",
+        "reportUrl" : "https://pavliukStanislav.github.io/Automated/97//#testresult/e4222038c3e1aa19",
+        "status" : "passed",
+        "time" : {
+          "start" : 1612053072690,
+          "stop" : 1612053072759,
+          "duration" : 69
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "a1d590981d0501a1.json",
+  "parameterValues" : [ ]
+}

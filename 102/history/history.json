@@ -4,11 +4,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 6,
+      "passed" : 7,
       "unknown" : 0,
-      "total" : 6
+      "total" : 7
     },
     "items" : [ {
+      "uid" : "afd6ad6ba46ecc57",
+      "reportUrl" : "https://pavliukStanislav.github.io/Automated/102//#testresult/afd6ad6ba46ecc57",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613122349731,
+        "stop" : 1613122349766,
+        "duration" : 35
+      }
+    }, {
       "uid" : "9f63238b0f81ac8c",
       "reportUrl" : "https://pavliukStanislav.github.io/Automated/102//#testresult/9f63238b0f81ac8c",
       "status" : "passed",
@@ -69,11 +78,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 6,
+      "passed" : 7,
       "unknown" : 0,
-      "total" : 6
+      "total" : 7
     },
     "items" : [ {
+      "uid" : "d1855b8f15c1530",
+      "reportUrl" : "https://pavliukStanislav.github.io/Automated/102//#testresult/d1855b8f15c1530",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613122349779,
+        "stop" : 1613122349787,
+        "duration" : 8
+      }
+    }, {
       "uid" : "3ab058cdc47f7e55",
       "reportUrl" : "https://pavliukStanislav.github.io/Automated/102//#testresult/3ab058cdc47f7e55",
       "status" : "passed",
@@ -134,11 +152,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 6,
+      "passed" : 7,
       "unknown" : 0,
-      "total" : 6
+      "total" : 7
     },
     "items" : [ {
+      "uid" : "50332b7661e5836d",
+      "reportUrl" : "https://pavliukStanislav.github.io/Automated/102//#testresult/50332b7661e5836d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613122349773,
+        "stop" : 1613122349775,
+        "duration" : 2
+      }
+    }, {
       "uid" : "76f1be0bbe8d451",
       "reportUrl" : "https://pavliukStanislav.github.io/Automated/102//#testresult/76f1be0bbe8d451",
       "status" : "passed",
@@ -199,11 +226,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 6,
+      "passed" : 7,
       "unknown" : 0,
-      "total" : 6
+      "total" : 7
     },
     "items" : [ {
+      "uid" : "9a6a1a474c6aed45",
+      "reportUrl" : "https://pavliukStanislav.github.io/Automated/102//#testresult/9a6a1a474c6aed45",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613122349775,
+        "stop" : 1613122349776,
+        "duration" : 1
+      }
+    }, {
       "uid" : "71226bad0ab3da83",
       "reportUrl" : "https://pavliukStanislav.github.io/Automated/102//#testresult/71226bad0ab3da83",
       "status" : "passed",
@@ -264,11 +300,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 6,
+      "passed" : 7,
       "unknown" : 0,
-      "total" : 6
+      "total" : 7
     },
     "items" : [ {
+      "uid" : "20079a2bf8746d74",
+      "reportUrl" : "https://pavliukStanislav.github.io/Automated/102//#testresult/20079a2bf8746d74",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613122349799,
+        "stop" : 1613122350321,
+        "duration" : 522
+      }
+    }, {
       "uid" : "39764966d312a21b",
       "reportUrl" : "https://pavliukStanislav.github.io/Automated/102//#testresult/39764966d312a21b",
       "status" : "passed",
@@ -329,11 +374,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 6,
+      "passed" : 7,
       "unknown" : 0,
-      "total" : 6
+      "total" : 7
     },
     "items" : [ {
+      "uid" : "1bc307fc81e4435c",
+      "reportUrl" : "https://pavliukStanislav.github.io/Automated/102//#testresult/1bc307fc81e4435c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613122349791,
+        "stop" : 1613122349795,
+        "duration" : 4
+      }
+    }, {
       "uid" : "c283d85725af6f0d",
       "reportUrl" : "https://pavliukStanislav.github.io/Automated/102//#testresult/c283d85725af6f0d",
       "status" : "passed",
@@ -394,11 +448,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 6,
+      "passed" : 7,
       "unknown" : 0,
-      "total" : 6
+      "total" : 7
     },
     "items" : [ {
+      "uid" : "eee327ccddd1e68d",
+      "reportUrl" : "https://pavliukStanislav.github.io/Automated/102//#testresult/eee327ccddd1e68d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613122349745,
+        "stop" : 1613122349798,
+        "duration" : 53
+      }
+    }, {
       "uid" : "a666944484fea686",
       "reportUrl" : "https://pavliukStanislav.github.io/Automated/102//#testresult/a666944484fea686",
       "status" : "passed",
@@ -459,11 +522,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 6,
+      "passed" : 7,
       "unknown" : 0,
-      "total" : 6
+      "total" : 7
     },
     "items" : [ {
+      "uid" : "5db10adfa48f2fe1",
+      "reportUrl" : "https://pavliukStanislav.github.io/Automated/102//#testresult/5db10adfa48f2fe1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613122350376,
+        "stop" : 1613122350377,
+        "duration" : 1
+      }
+    }, {
       "uid" : "cffa0d3a22cd6b3e",
       "reportUrl" : "https://pavliukStanislav.github.io/Automated/102//#testresult/cffa0d3a22cd6b3e",
       "status" : "passed",
@@ -524,11 +596,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 6,
+      "passed" : 7,
       "unknown" : 0,
-      "total" : 6
+      "total" : 7
     },
     "items" : [ {
+      "uid" : "758abbb7ae10f0eb",
+      "reportUrl" : "https://pavliukStanislav.github.io/Automated/102//#testresult/758abbb7ae10f0eb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613122350378,
+        "stop" : 1613122350380,
+        "duration" : 2
+      }
+    }, {
       "uid" : "c9b06b3ea63350d",
       "reportUrl" : "https://pavliukStanislav.github.io/Automated/102//#testresult/c9b06b3ea63350d",
       "status" : "passed",

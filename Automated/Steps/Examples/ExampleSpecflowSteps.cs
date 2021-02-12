@@ -7,6 +7,7 @@ using System.Collections.Generic;
 using System.Reflection;
 using System.Threading.Tasks;
 using TechTalk.SpecFlow;
+using TechTalk.SpecFlow.Assist;
 
 namespace Automated.Steps
 {
@@ -104,6 +105,35 @@ namespace Automated.Steps
         public void ThenSimpleThenForReport()
         {
             Console.WriteLine("simple then for report");
+        }
+
+        [Given(@"Create instance from table")]
+        public void GivenCreateInstanceFromTable(Table table)
+        {
+            var instance = table.CreateInstance<ExampleTableItem>();
+            Console.WriteLine("This is output");
+            Console.WriteLine(instance.First);
+        }
+
+        [When(@"Create another instanse from tabe")]
+        public void WhenCreateAnotherInstanseFromTabe(Table table)
+        {
+            var inst = table.CreateInstance<ExampleTableItem>();
+
+            Console.WriteLine("This is out:");
+            Console.WriteLine(inst.First);
+        }
+
+        [When(@"Compare instance")]
+        public void WhenCompareInstance(Table table)
+        {
+            var perfect = new ExampleTableItem()
+            {
+                First = "First perfect",
+                Second = "Second perfect"
+            };
+
+            table.CompareToInstance<ExampleTableItem>(perfect);
         }
 
         private async Task GetTask()

@@ -9,6 +9,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="FluentAssertions" Version="5.10.3" />
+  </ItemGroup>
+
+  <ItemGroup>
     <None Update="Examples\Files\Xlsx\Monthly budget.xlsx">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>

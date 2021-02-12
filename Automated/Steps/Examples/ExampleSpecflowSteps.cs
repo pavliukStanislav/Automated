@@ -105,6 +105,8 @@ namespace Automated.Steps
         public void ThenSimpleThenForReport()
         {
             Console.WriteLine("simple then for report");
+            //exsmple failed step
+            (true).Should().BeFalse();
         }
 
         [Given(@"Create instance from table")]

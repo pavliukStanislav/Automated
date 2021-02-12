@@ -12,7 +12,7 @@ Scenario: Basic keywords example
 	* this is asterisk
 	When this is when with 'string' parameter
 	Then this is then with int '3' parameter
-	But this is but
+	But this is failed but
 
 Scenario Outline: Scenario outline example
 	Given step with <first> parameter

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using FluentAssertions;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using TechTalk.SpecFlow;
@@ -44,10 +45,11 @@ namespace Automated.Steps
             Console.WriteLine($"this is then with int '{p0}' parameter");
         }
 
-        [Then(@"this is but")]
+        [Then(@"this is failed but")]
         public void ThenThisIsBut()
         {
-            Console.WriteLine("this is but");
+            Console.WriteLine("this is failed but");
+            (true).Should().BeFalse();
         }
 
         [Given(@"step with (.*) parameter")]

@@ -1,0 +1,202 @@
+{
+  "uid" : "4564effe450a34e1",
+  "name" : "Assist helpers",
+  "fullName" : "Assist helpers",
+  "historyId" : "Assist helpers",
+  "time" : {
+    "start" : 1613123720864,
+    "stop" : 1613123720905,
+    "duration" : 41
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "BeforeScenario [0]",
+    "time" : {
+      "start" : 1613123720804,
+      "stop" : 1613123720812,
+      "duration" : 8
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "BeforeFeature [0]",
+    "time" : {
+      "start" : 1613123720787,
+      "stop" : 1613123720788,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given  Create instance from table",
+      "time" : {
+        "start" : 1613123720873,
+        "stop" : 1613123720899,
+        "duration" : 26
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "First",
+        "value" : "sda"
+      }, {
+        "name" : "Second",
+        "value" : "secondData"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When  Create another instanse from tabe",
+      "time" : {
+        "start" : 1613123720899,
+        "stop" : 1613123720901,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "asdwed",
+        "value" : "secondData"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "And  Compare instance",
+      "time" : {
+        "start" : 1613123720901,
+        "stop" : 1613123720905,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "First perfect",
+        "value" : "Second perfect"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "AfterScenario [0]",
+    "time" : {
+      "start" : 1613123720905,
+      "stop" : 1613123720905,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "AfterFeature [0]",
+    "time" : {
+      "start" : 1613123721416,
+      "stop" : 1613123721416,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "ParallelWorker#2"
+  }, {
+    "name" : "host",
+    "value" : "fv-az116-170"
+  }, {
+    "name" : "feature",
+    "value" : "Example specflow"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "thisIsTms",
+    "url" : "https://auto.ria.com/uk/thisIsTms",
+    "type" : "tms"
+  }, {
+    "name" : "thisIsLink",
+    "url" : "thisIsLink"
+  }, {
+    "name" : "thisIsIssue",
+    "url" : "https://auto.ria.com/uk/thisIsIssue",
+    "type" : "issue"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "f2521bdbd9d97edf",
+        "reportUrl" : "https://pavliukStanislav.github.io/Automated/106//#testresult/f2521bdbd9d97edf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1613123490954,
+          "stop" : 1613123490995,
+          "duration" : 41
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "4564effe450a34e1.json",
+  "parameterValues" : [ ]
+}

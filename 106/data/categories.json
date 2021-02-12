@@ -1,0 +1,43 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Expected value to be 10 because 5 should not be 10, but found 5.\nExpected string to be \"Expected\" with a length of 8, but \"Actual\" has a length of 6, differs near \"Act\" (index 0).\n",
+      "children" : [ {
+        "name" : "assertion scope",
+        "uid" : "62bc3034d67f2239",
+        "parentUid" : "699f82dd0f5726ecf627644784047aa9",
+        "status" : "failed",
+        "time" : {
+          "start" : 1613123490973,
+          "stop" : 1613123491086,
+          "duration" : 113
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "699f82dd0f5726ecf627644784047aa9"
+    }, {
+      "name" : "Expected (true) to be false, but found True.",
+      "children" : [ {
+        "name" : "Basic keywords example",
+        "uid" : "63645c95a7b13c1c",
+        "parentUid" : "8557ebbe3a095f99a070673c13c3f4f5",
+        "status" : "failed",
+        "time" : {
+          "start" : 1613123491156,
+          "stop" : 1613123491164,
+          "duration" : 8
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8557ebbe3a095f99a070673c13c3f4f5"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ],
+  "name" : "categories"
+}

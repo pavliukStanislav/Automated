@@ -1,0 +1,111 @@
+[ {
+  "uid" : "fcc97a378aaf4a0d",
+  "name" : "Scenario with table",
+  "time" : {
+    "start" : 1613123491201,
+    "stop" : 1613123491204,
+    "duration" : 3
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8ad930575983ca24",
+  "name" : "Scenario with large string",
+  "time" : {
+    "start" : 1613123491188,
+    "stop" : 1613123491190,
+    "duration" : 2
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "84f22eb5148c4128",
+  "name" : "Different parameters and transformations",
+  "time" : {
+    "start" : 1613123490996,
+    "stop" : 1613123491482,
+    "duration" : 486
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f2521bdbd9d97edf",
+  "name" : "Assist helpers",
+  "time" : {
+    "start" : 1613123490954,
+    "stop" : 1613123490995,
+    "duration" : 41
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "7814ca985640ba3",
+  "name" : "Scenario outline example",
+  "time" : {
+    "start" : 1613123491175,
+    "stop" : 1613123491177,
+    "duration" : 2
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "63645c95a7b13c1c",
+  "name" : "Basic keywords example",
+  "time" : {
+    "start" : 1613123491156,
+    "stop" : 1613123491164,
+    "duration" : 8
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "9d571bb256acf2e0",
+  "name" : "and in assertion",
+  "time" : {
+    "start" : 1613123490908,
+    "stop" : 1613123490944,
+    "duration" : 36
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b58980b1bd6149cf",
+  "name" : "Occurrense contraint",
+  "time" : {
+    "start" : 1613123491089,
+    "stop" : 1613123491090,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "62bc3034d67f2239",
+  "name" : "assertion scope",
+  "time" : {
+    "start" : 1613123490973,
+    "stop" : 1613123491086,
+    "duration" : 113
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "1d54a2838bfa6bc2",
+  "name" : "Scenario outline example",
+  "time" : {
+    "start" : 1613123491185,
+    "stop" : 1613123491186,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "67a1b7d1b0fa083a",
+  "name" : "Tag scoping example",
+  "time" : {
+    "start" : 1613123491514,
+    "stop" : 1613123491515,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

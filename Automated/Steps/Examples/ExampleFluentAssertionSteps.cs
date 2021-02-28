@@ -1,6 +1,6 @@
-﻿using Automated.Data.Examples;
-using FluentAssertions;
+﻿using FluentAssertions;
 using FluentAssertions.Execution;
+using System;
 using TechTalk.SpecFlow;
 
 namespace Automated.Steps.Examples
@@ -29,6 +29,5 @@ namespace Automated.Steps.Examples
         {
             "is a is a".Should().Contain("is a", MoreThan.Once());
         }
-
     }
 }

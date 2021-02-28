@@ -40,6 +40,7 @@
   <ItemGroup>
     <ProjectReference Include="..\Automated.Data\Automated.Data.csproj" />
     <ProjectReference Include="..\Automated.OtherTools\Automated.OtherTools.csproj" />
+    <ProjectReference Include="..\Automation.Selenium\Automation.Selenium.csproj" />
   </ItemGroup>
 
   <ItemGroup>

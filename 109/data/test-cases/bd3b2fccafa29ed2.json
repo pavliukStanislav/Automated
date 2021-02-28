@@ -1,0 +1,170 @@
+{
+  "uid" : "bd3b2fccafa29ed2",
+  "name" : "Scenario with table",
+  "fullName" : "Scenario with table",
+  "historyId" : "Scenario with table",
+  "time" : {
+    "start" : 1614531921961,
+    "stop" : 1614531921963,
+    "duration" : 2
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "BeforeScenario [0]",
+    "time" : {
+      "start" : 1614531921961,
+      "stop" : 1614531921961,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "BeforeFeature [0]",
+    "time" : {
+      "start" : 1614531921927,
+      "stop" : 1614531921927,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given  this is given for all scenarious in feature",
+      "time" : {
+        "start" : 1614531921961,
+        "stop" : 1614531921961,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Given  this is given with table",
+      "time" : {
+        "start" : 1614531921961,
+        "stop" : 1614531921963,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "data11",
+        "value" : "data12"
+      }, {
+        "name" : "data21",
+        "value" : "data22"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "AfterFeature [0]",
+    "time" : {
+      "start" : 1614531921963,
+      "stop" : 1614531921963,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "ParallelWorker#1"
+  }, {
+    "name" : "host",
+    "value" : "fv-az181-99"
+  }, {
+    "name" : "feature",
+    "value" : "Exmple with Gherkin Language"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "43c6c78eeeda2b19",
+        "reportUrl" : "https://pavliukStanislav.github.io/Automated/108//#testresult/43c6c78eeeda2b19",
+        "status" : "passed",
+        "time" : {
+          "start" : 1613123889271,
+          "stop" : 1613123889273,
+          "duration" : 2
+        }
+      }, {
+        "uid" : "54060afe59b1b6fa",
+        "reportUrl" : "https://pavliukStanislav.github.io/Automated/107//#testresult/54060afe59b1b6fa",
+        "status" : "passed",
+        "time" : {
+          "start" : 1613123721069,
+          "stop" : 1613123721078,
+          "duration" : 9
+        }
+      }, {
+        "uid" : "fcc97a378aaf4a0d",
+        "reportUrl" : "https://pavliukStanislav.github.io/Automated/106//#testresult/fcc97a378aaf4a0d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1613123491201,
+          "stop" : 1613123491204,
+          "duration" : 3
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "bd3b2fccafa29ed2.json",
+  "parameterValues" : [ ]
+}

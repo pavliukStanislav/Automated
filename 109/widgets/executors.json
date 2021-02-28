@@ -1,0 +1,10 @@
+[ {
+  "name" : "GitHub Actions",
+  "type" : "github",
+  "url" : "https://pavliukStanislav.github.io/Automated",
+  "buildOrder" : 109,
+  "buildName" : "GitHub Actions Run #608161181",
+  "buildUrl" : "https://github.com/pavliukStanislav/Automated/actions/runs/608161181",
+  "reportName" : "Allure Report with history",
+  "reportUrl" : "https://pavliukStanislav.github.io/Automated/109/"
+} ]

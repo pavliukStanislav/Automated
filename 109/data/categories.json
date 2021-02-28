@@ -1,0 +1,60 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Expected value to be 10 because 5 should not be 10, but found 5.\nExpected string to be \"Expected\" with a length of 8, but \"Actual\" has a length of 6, differs near \"Act\" (index 0).\n",
+      "children" : [ {
+        "name" : "assertion scope",
+        "uid" : "14fb5550f44d7dd4",
+        "parentUid" : "699f82dd0f5726ecf627644784047aa9",
+        "status" : "failed",
+        "time" : {
+          "start" : 1614531921345,
+          "stop" : 1614531921477,
+          "duration" : 132
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "699f82dd0f5726ecf627644784047aa9"
+    }, {
+      "name" : "The type initializer for 'Automation.Selenium.Browser' threw an exception. -> unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)",
+      "children" : [ {
+        "name" : "Assert google search results exists",
+        "uid" : "fdc31766645d09eb",
+        "parentUid" : "aae4e18141d4c991f074722ea986d432",
+        "status" : "failed",
+        "time" : {
+          "start" : 1614531921531,
+          "stop" : 1614531927492,
+          "duration" : 5961
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "aae4e18141d4c991f074722ea986d432"
+    }, {
+      "name" : "Expected (true) to be false, but found True.",
+      "children" : [ {
+        "name" : "Basic keywords example",
+        "uid" : "eb7a9c4ee6f86daf",
+        "parentUid" : "8557ebbe3a095f99a070673c13c3f4f5",
+        "status" : "failed",
+        "time" : {
+          "start" : 1614531921948,
+          "stop" : 1614531921955,
+          "duration" : 7
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8557ebbe3a095f99a070673c13c3f4f5"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ],
+  "name" : "categories"
+}

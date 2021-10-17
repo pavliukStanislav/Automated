@@ -17,6 +17,8 @@ namespace Automated.UI
             {
                 case BrowserType.Chrome:
                     var options = new ChromeOptions();
+                    options.AddArgument("headless");
+
                     Driver = new ChromeDriver(options);
                     break;
 

@@ -34,7 +34,7 @@ jobs:
       uses: simple-elf/allure-report-action@master
       if: always()
       with:
-        allure_results: Automated/bin/Debug/net5.0/allure-results
+        allure_results: Automated.Tests/bin/Debug/net5.0/allure-results
         allure_history: allure-history    
     
     - name: Deploy report to Github Pages

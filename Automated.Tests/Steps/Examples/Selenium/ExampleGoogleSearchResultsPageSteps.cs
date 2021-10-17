@@ -1,13 +1,15 @@
 ﻿using Automated.PagesImplementation.Pages.Examples;
 using FluentAssertions;
+using System.Collections.Generic;
+using System.Linq;
 using TechTalk.SpecFlow;
 
 namespace Automated.Tests.Steps.Examples.Selenium
 {
     [Binding]
-    public class ExampleGoogleSearchResultsPageSteps : ExampleBaseUiStepSteps
+    public class ExampleGoogleSearchResultsPageSteps : ExampleBaseUiStep
     {
-        private GoogleSearchResultsPage GoogleSearchResultsPage => new GoogleSearchResultsPage();
+        private GoogleSearchResultsPage GoogleSearchResultsPage => GetFromContainer<List<GoogleSearchResultsPage>>().Last();
 
         public ExampleGoogleSearchResultsPageSteps(ScenarioContext context) : base(context)
         {

@@ -1,10 +1,12 @@
 ﻿using Automated.UI;
+using System.Collections.Generic;
+using System.Linq;
 using TechTalk.SpecFlow;
 
 namespace Automated.Tests.Steps.Examples.Selenium
 {
     [Binding]
-    public class ExampleGoogleNavigationSteps : ExampleBaseUiStepSteps
+    public class ExampleGoogleNavigationSteps : ExampleBaseUiStep
     {
         public ExampleGoogleNavigationSteps(ScenarioContext context) : base(context)
         {
@@ -13,7 +15,7 @@ namespace Automated.Tests.Steps.Examples.Selenium
         [Given(@"User open browser and navigate to Google Search Main page")]
         public void GivenUserOpenBrowserAndNavigateToGoogleSearchMainPage()
         {
-            Browser.GoToUrl("https://www.google.com.ua/");
+            GetFromContainer<List<Browser>>().Last().GoToUrl("https://www.google.com.ua/");
         }
     }
 }

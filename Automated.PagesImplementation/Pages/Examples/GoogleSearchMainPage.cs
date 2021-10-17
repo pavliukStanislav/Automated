@@ -5,7 +5,9 @@ namespace Automated.PagesImplementation.Pages.Examples
 {
     public class GoogleSearchMainPage : BasePage
     {
-        public TextBox TextBoxSearch => new TextBox("//input[@type='text']");
-        public Button ButtonSearch => new Button("//div[@jsname]//input[@name='btnK']");
+        public GoogleSearchMainPage(Browser browser) : base(browser) { }
+
+        public TextBox TextBoxSearch => new TextBox("//input[@type='text']", Browser);
+        public Button ButtonSearch => new Button("//div[@jsname]//input[@name='btnK']", Browser);
     }
 }

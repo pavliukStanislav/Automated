@@ -7,17 +7,17 @@ namespace Automated.UI.Elements.DefaultElements
         public string Text 
         {
             get {
-                return Wait.ForElementVisible(xpath).Text;
+                return wait.ForElementVisible(xpath).Text;
             }            
         }
 
-        public Label(string xpath) : base(xpath)
+        public Label(string xpath, Browser browser) : base(xpath, browser)
         {
         }
 
         public bool IsTextEqualTo(string expectedText, TimeSpan timeToWait = default)
         {
-            return Wait.ForElementHaveText(xpath, expectedText, timeToWait);
+            return wait.ForElementHaveText(xpath, expectedText, timeToWait);
         }
     }
 }

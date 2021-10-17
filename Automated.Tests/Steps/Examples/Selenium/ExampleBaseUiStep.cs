@@ -3,11 +3,11 @@
 namespace Automated.Tests.Steps.Examples.Selenium
 {
     [Binding]
-    public class ExampleBaseUiStepSteps
+    public class ExampleBaseUiStep
     {
         private readonly ScenarioContext ScenarioContext;
 
-        public ExampleBaseUiStepSteps(ScenarioContext context)
+        public ExampleBaseUiStep(ScenarioContext context)
         {
             ScenarioContext = context;
         }

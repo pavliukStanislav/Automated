@@ -7,14 +7,13 @@ namespace Automated.UI
 {
     public class Browser
     {
-        private static BrowserType BrowserType = BrowserType.Chrome;
+        public IWebDriver Driver { get; set; }
 
-        internal static IWebDriver Driver;
+        public Js Js { get; set; }
 
-
-        static Browser()
+        public Browser(BrowserType browserType)
         {
-            switch (BrowserType)
+            switch (browserType)
             {
                 case BrowserType.Chrome:
                     var options = new ChromeOptions();
@@ -24,14 +23,16 @@ namespace Automated.UI
                 default:
                     throw new NotImplementedException();
             }
+
+            Js = new Js(Driver);
         }
 
-        public static void GoToUrl(string url) 
+        public void GoToUrl(string url) 
         {
             Driver.Navigate().GoToUrl(url);
         }
 
-        public static void Quit()
+        public void Quit()
         {
             Driver.Quit();
             Driver.Dispose();

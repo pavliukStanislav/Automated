@@ -3,21 +3,28 @@ using OpenQA.Selenium.Support.Extensions;
 
 namespace Automated.UI
 {
-    internal static class Js
+    public class Js
     {
-        internal static string Execute(string command)
+        private IWebDriver Driver;
+
+        public Js(IWebDriver driver)
         {
-            return Browser.Driver.ExecuteJavaScript<string>(command);
+            Driver = driver;
         }
 
-        internal static string SetElementValue(this IWebElement element, string value)
+        internal string Execute(string command)
+        {
+            return Driver.ExecuteJavaScript<string>(command);
+        }
+
+        internal string SetElementValue(IWebElement element, string value)
         {
             return SetAttribute(element, "value", value);
         }
 
-        internal static string SetAttribute(IWebElement element, string attribute, string value)
+        internal string SetAttribute(IWebElement element, string attribute, string value)
         {
-            return Browser.Driver.ExecuteJavaScript<string>("arguments[0].setAttribute(arguments[1], arguments[2])", element, attribute, value);
+            return Driver.ExecuteJavaScript<string>("arguments[0].setAttribute(arguments[1], arguments[2])", element, attribute, value);
         }
     }
 }

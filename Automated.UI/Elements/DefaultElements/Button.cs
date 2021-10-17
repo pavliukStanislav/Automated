@@ -2,7 +2,7 @@
 {
     public class Button : BaseElement
     {
-        public Button(string xpath) : base(xpath)
+        public Button(string xpath, Browser browser) : base(xpath, browser)
         {
         }
     }

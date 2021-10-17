@@ -6,9 +6,13 @@ namespace Automated.PagesImplementation.Pages.Examples
 {
     public class GoogleSearchResultsPage : BasePage
     {
-        public TextBox TextBoxSearch => new TextBox("//input[@title='Search']");
-        public Button ButtonSearch => new Button("//button[@type='submit']");
+        public GoogleSearchResultsPage(Browser browser) : base(browser)
+        {
+        }
 
-        public GoogleSearchResult GoogleSearchResult(int index) => new GoogleSearchResult("//div[@class='g']", index);
+        public TextBox TextBoxSearch => new TextBox("//input[@title='Search']", Browser);
+        public Button ButtonSearch => new Button("//button[@type='submit']", Browser);
+
+        public GoogleSearchResult GoogleSearchResult(int index) => new GoogleSearchResult("//div[@class='g']", index, Browser);
     }
 }

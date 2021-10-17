@@ -4,11 +4,18 @@ using System;
 
 namespace Automated.UI
 {
-    internal static class Wait
+    public class Wait
     {
-        private static readonly TimeSpan DefaultTimeToWait = new TimeSpan(0, 0, 10);
+        private readonly TimeSpan DefaultTimeToWait = new TimeSpan(0, 0, 10);
 
-        internal static IWebElement ForElementClickable(string xpath, TimeSpan timeToWait = default)
+        private readonly IWebDriver driver;
+
+        public Wait(IWebDriver driver)
+        {
+            this.driver = driver;
+        }
+
+        internal IWebElement ForElementClickable(string xpath, TimeSpan timeToWait = default)
         {
             Func<IWebDriver, IWebElement> condition(By locator) 
             {
@@ -33,11 +40,11 @@ namespace Automated.UI
                 };
             }
 
-            var wait = new WebDriverWait(Browser.Driver, timeToWait == default ? DefaultTimeToWait : timeToWait);
+            var wait = new WebDriverWait(driver, timeToWait == default ? DefaultTimeToWait : timeToWait);
             return wait.Until(condition(By.XPath(xpath)));
         }
 
-        internal static IWebElement ForElementVisible(string xpath, TimeSpan timeToWait = default)
+        internal IWebElement ForElementVisible(string xpath, TimeSpan timeToWait = default)
         { 
             Func<IWebDriver, IWebElement> condition(By locator)
             {
@@ -54,11 +61,11 @@ namespace Automated.UI
                 };
             }
 
-            var wait = new WebDriverWait(Browser.Driver, timeToWait == default ? DefaultTimeToWait : timeToWait);
+            var wait = new WebDriverWait(driver, timeToWait == default ? DefaultTimeToWait : timeToWait);
             return wait.Until(condition(By.XPath(xpath)));
         }
 
-        internal static bool ForElementNotVisible(string xpath, TimeSpan timeToWait = default)
+        internal bool ForElementNotVisible(string xpath, TimeSpan timeToWait = default)
         {
             Func<IWebDriver, bool> condition(By locator)
             {
@@ -75,11 +82,11 @@ namespace Automated.UI
                 };
             }
 
-            var wait = new WebDriverWait(Browser.Driver, timeToWait == default ? DefaultTimeToWait : timeToWait);
+            var wait = new WebDriverWait(driver, timeToWait == default ? DefaultTimeToWait : timeToWait);
             return wait.Until(condition(By.XPath(xpath)));
         }
 
-        internal static bool ForElementHaveText(string xpath, string text, TimeSpan timeToWait = default)
+        internal bool ForElementHaveText(string xpath, string text, TimeSpan timeToWait = default)
         {
             Func<IWebDriver, bool> condition(By locator)
             {
@@ -96,11 +103,11 @@ namespace Automated.UI
                 };
             }
 
-            var wait = new WebDriverWait(Browser.Driver, timeToWait == default ? DefaultTimeToWait : timeToWait);
+            var wait = new WebDriverWait(driver, timeToWait == default ? DefaultTimeToWait : timeToWait);
             return wait.Until(condition(By.XPath(xpath)));
         }
 
-        private static IWebElement ElementIfVisible(IWebElement element)
+        private IWebElement ElementIfVisible(IWebElement element)
         {
             return element.Displayed ? element : null;
         }

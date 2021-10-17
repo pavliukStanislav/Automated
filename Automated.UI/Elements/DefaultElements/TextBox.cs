@@ -7,10 +7,10 @@ namespace Automated.UI.Elements.DefaultElements
         public string Text 
         {
             get {
-                return Wait.ForElementVisible(xpath).Text;
+                return wait.ForElementVisible(xpath).Text;
             }
             set {
-                Wait.ForElementVisible(xpath).SendKeys(value);
+                wait.ForElementVisible(xpath).SendKeys(value);
             }
         }
 
@@ -18,21 +18,21 @@ namespace Automated.UI.Elements.DefaultElements
         {
             get
             {
-                return Wait.ForElementVisible(xpath).GetAttribute("value");
+                return wait.ForElementVisible(xpath).GetAttribute("value");
             }
             set
             {
-                Wait.ForElementVisible(xpath).SetElementValue(value);
+                SetElementValue(value);
             }
         }
 
-        public TextBox(string xpath) : base(xpath)
+        public TextBox(string xpath, Browser browser) : base(xpath, browser)
         {
         }
 
         public bool IsTextEqualTo(string expectedText, TimeSpan timeToWait = default)
         {
-            return Wait.ForElementHaveText(xpath, expectedText, timeToWait);
+            return wait.ForElementHaveText(xpath, expectedText, timeToWait);
         }
     }
 }

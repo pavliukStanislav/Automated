@@ -1,0 +1,121 @@
+[ {
+  "uid" : "2ab35f3b201e4305",
+  "name" : "Scenario outline example",
+  "time" : {
+    "start" : 1634505893887,
+    "stop" : 1634505893888,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "65026034cabbf1c6",
+  "name" : "Tag scoping example",
+  "time" : {
+    "start" : 1634505893831,
+    "stop" : 1634505893832,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7a0b73c437d6d5d2",
+  "name" : "Scenario with large string",
+  "time" : {
+    "start" : 1634505893890,
+    "stop" : 1634505893892,
+    "duration" : 2
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "42700498e028b7aa",
+  "name" : "Occurrense contraint",
+  "time" : {
+    "start" : 1634505893389,
+    "stop" : 1634505893391,
+    "duration" : 2
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b4364df5a382241b",
+  "name" : "And in assertion",
+  "time" : {
+    "start" : 1634505893207,
+    "stop" : 1634505893253,
+    "duration" : 46
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7cd610e0da64dde0",
+  "name" : "Different parameters and transformations",
+  "time" : {
+    "start" : 1634505893329,
+    "stop" : 1634505893802,
+    "duration" : 473
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f77259c380abd1d7",
+  "name" : "Assert google search results exists",
+  "time" : {
+    "start" : 1634505897708,
+    "stop" : 1634505900517,
+    "duration" : 2809
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a9b2e18edaf13ad3",
+  "name" : "Scenario with table",
+  "time" : {
+    "start" : 1634505893893,
+    "stop" : 1634505893896,
+    "duration" : 3
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "82ebbe3e0e1c76c",
+  "name" : "Basic keywords example",
+  "time" : {
+    "start" : 1634505893878,
+    "stop" : 1634505893886,
+    "duration" : 8
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "3418efa0e5e4718d",
+  "name" : "Assist helpers",
+  "time" : {
+    "start" : 1634505893274,
+    "stop" : 1634505893325,
+    "duration" : 51
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "873bb3045efadb6d",
+  "name" : "Assertion scope",
+  "time" : {
+    "start" : 1634505893259,
+    "stop" : 1634505893388,
+    "duration" : 129
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "2f920fab3a29fb5a",
+  "name" : "Scenario outline example",
+  "time" : {
+    "start" : 1634505893888,
+    "stop" : 1634505893889,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

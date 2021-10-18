@@ -1,4 +1,5 @@
 ﻿using Automated.PagesImplementation.Pages.Examples;
+using Automated.UI;
 using System.Collections.Generic;
 using System.Linq;
 using TechTalk.SpecFlow;
@@ -8,7 +9,7 @@ namespace Automated.Tests.Steps.Examples.Selenium
     [Binding]
     public class ExampleGoogleMainPageSteps : ExampleBaseUiStep
     {
-        private GoogleSearchMainPage GoogleSearchMainPage => GetFromContainer<List<GoogleSearchMainPage>>().Last();
+        private GoogleSearchMainPage GoogleSearchMainPage => new GoogleSearchMainPage(GetFromContainer<List<Browser>>().First());
 
         public ExampleGoogleMainPageSteps(ScenarioContext context) : base(context)
         {

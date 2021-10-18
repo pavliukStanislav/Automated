@@ -2,6 +2,7 @@
 using Automated.UI;
 using Automated.UI.Helpers.Enums;
 using System.Collections.Generic;
+using System.Linq;
 using TechTalk.SpecFlow;
 
 namespace Automated.Tests.Hooks
@@ -20,18 +21,9 @@ namespace Automated.Tests.Hooks
         [BeforeScenario(Order = 0)]
         public void CreateBrowserInstrance()
         {
-            _scenarioContext.ScenarioContainer.RegisterInstanceAs(new List<Browser>() { new Browser(BrowserType.Chrome) });
-        }
+            var browser = new Browser(BrowserType.Chrome, "main");
 
-        [Scope(Tag = "uiTest")]
-        [BeforeScenario(Order = 1)]
-        public void AddPagesImplementation(List<Browser> browsers)
-        {
-            foreach (var browser in browsers)
-            {
-                _scenarioContext.ScenarioContainer.RegisterInstanceAs(new List<GoogleSearchMainPage>() { new GoogleSearchMainPage(browser) });
-                _scenarioContext.ScenarioContainer.RegisterInstanceAs(new List<GoogleSearchResultsPage>() { new GoogleSearchResultsPage(browser) });
-            }
+            _scenarioContext.ScenarioContainer.RegisterInstanceAs(new List<Browser>() { browser });
         }
 
         [Scope(Tag = "uiTest")]

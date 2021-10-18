@@ -11,11 +11,18 @@ namespace Automated.UI
 
         public Js Js { get; set; }
 
-        public Browser(BrowserType browserType)
+        private BrowserType browserType;
+
+        public string BrowserName { get; private set; }
+
+        public Browser(BrowserType browserType, string browserName)
         {
+            this.browserType = browserType;
+            this.BrowserName = browserName;
+
             switch (browserType)
             {
-                case BrowserType.Chrome:
+                case BrowserType.Chromem
                     var options = new ChromeOptions();
                     options.AddArgument("headless");
 
@@ -38,6 +45,11 @@ namespace Automated.UI
         {
             Driver.Quit();
             Driver.Dispose();
+        }
+
+        public Browser Clone(string browserName)
+        {
+            return new Browser(browserType, browserName);
         }
     }
 }

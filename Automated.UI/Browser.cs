@@ -22,7 +22,7 @@ namespace Automated.UI
 
             switch (browserType)
             {
-                case BrowserType.Chromem
+                case BrowserType.Chrome:
                     var options = new ChromeOptions();
                     options.AddArgument("headless");
 

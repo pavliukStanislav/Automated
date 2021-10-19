@@ -21,7 +21,7 @@ jobs:
     - name: Build
       run: dotnet build --no-restore --configuration Release
     - name: Test
-      run: dotnet test --no-build --verbosity normal    
+      run: dotnet test --no-build --verbosity normal --configuration Release
 
     - name: Get Allure history
       uses: actions/checkout@v2
@@ -34,7 +34,7 @@ jobs:
       uses: simple-elf/allure-report-action@master
       if: always()
       with:
-        allure_results: Automated.Tests/bin/Debug/net5.0/allure-results
+        allure_results: Automated.Tests/bin/Release/net5.0/allure-results
         allure_history: allure-history    
     
     - name: Deploy report to Github Pages

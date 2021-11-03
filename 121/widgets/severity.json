@@ -1,0 +1,111 @@
+[ {
+  "uid" : "6b5525ed94489826",
+  "name" : "Scenario with table",
+  "time" : {
+    "start" : 1635981807476,
+    "stop" : 1635981807481,
+    "duration" : 5
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "332c1e03c97d52da",
+  "name" : "Scenario outline example",
+  "time" : {
+    "start" : 1635981807470,
+    "stop" : 1635981807472,
+    "duration" : 2
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6c5268ee28b9158f",
+  "name" : "Occurrense contraint",
+  "time" : {
+    "start" : 1635981807018,
+    "stop" : 1635981807020,
+    "duration" : 2
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d2d46b732fe75eb2",
+  "name" : "Assertion scope",
+  "time" : {
+    "start" : 1635981806907,
+    "stop" : 1635981807016,
+    "duration" : 109
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "433c6c00b72bf298",
+  "name" : "Different parameters and transformations",
+  "time" : {
+    "start" : 1635981806946,
+    "stop" : 1635981807398,
+    "duration" : 452
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fd18698a5949debc",
+  "name" : "Scenario outline example",
+  "time" : {
+    "start" : 1635981807473,
+    "stop" : 1635981807473,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8913059821b2ee6d",
+  "name" : "Tag scoping example",
+  "time" : {
+    "start" : 1635981807438,
+    "stop" : 1635981807439,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bf34bd20986df382",
+  "name" : "Scenario with large string",
+  "time" : {
+    "start" : 1635981807474,
+    "stop" : 1635981807476,
+    "duration" : 2
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6f0eaf54e5677b4b",
+  "name" : "Basic keywords example",
+  "time" : {
+    "start" : 1635981807462,
+    "stop" : 1635981807469,
+    "duration" : 7
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "3ae61609daaa6cce",
+  "name" : "And in assertion",
+  "time" : {
+    "start" : 1635981806859,
+    "stop" : 1635981806902,
+    "duration" : 43
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b71bd50baf7d405",
+  "name" : "Assist helpers",
+  "time" : {
+    "start" : 1635981806894,
+    "stop" : 1635981806944,
+    "duration" : 50
+  },
+  "status" : "passed",
+  "severity" : "critical"
+} ]

@@ -1,7 +1,10 @@
-﻿using Automated.UI.Helpers.Enums;
+﻿using Automated.UI.Helpers;
+using Automated.UI.Helpers.Enums;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
+using Serilog;
 using System;
+using System.Reflection;
 
 namespace Automated.UI
 {
@@ -15,16 +18,22 @@ namespace Automated.UI
 
         public string BrowserName { get; private set; }
 
-        public Browser(BrowserType browserType, string browserName)
+        public ILogger logger;
+
+        public Browser(BrowserType browserType, string browserName, ILogger logger)
         {
             this.browserType = browserType;
             this.BrowserName = browserName;
+            this.logger = logger;
 
             switch (browserType)
             {
                 case BrowserType.Chrome:
                     var options = new ChromeOptions();
-                    options.AddArgument("headless");
+                    //options.AddArgument("headless");
+
+                    logger.Information("=======================================");
+                    logger.Information(LogMessageMasks.Operation, browserName, "CREATING BROWSER INSCANCE", nameof(BrowserType.Chrome));
 
                     Driver = new ChromeDriver(options);
                     break;
@@ -38,18 +47,22 @@ namespace Automated.UI
 
         public void GoToUrl(string url) 
         {
+            logger.Information(LogMessageMasks.Operation, BrowserName, MethodBase.GetCurrentMethod().Name, url);
             Driver.Navigate().GoToUrl(url);
         }
 
         public void Quit()
         {
+            logger.Information(LogMessageMasks.Operation, BrowserName, "CLOSING BROWSER INSCANCE", nameof(BrowserType.Chrome));
+            logger.Information("=======================================");
+
             Driver.Quit();
             Driver.Dispose();
         }
 
         public Browser Clone(string browserName)
         {
-            return new Browser(browserType, browserName);
+            return new Browser(browserType, browserName, logger);
         }
     }
 }

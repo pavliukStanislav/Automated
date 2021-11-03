@@ -32,7 +32,7 @@ namespace Automated.UI.Elements.DefaultElements
 
         public bool IsTextEqualTo(string expectedText, TimeSpan timeToWait = default)
         {
-            return wait.ForElementHaveText(xpath, expectedText, timeToWait);
+            return wait.ForElementHasText(xpath, expectedText, timeToWait);
         }
     }
 }

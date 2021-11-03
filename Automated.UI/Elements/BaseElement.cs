@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Automated.UI.Helpers;
+using System;
+using System.Reflection;
 
 namespace Automated.UI.Elements
 {
@@ -12,17 +14,23 @@ namespace Automated.UI.Elements
         {
             this.xpath = xpath;
             this.browser = browser;
-            this.wait = new Wait(browser.Driver);
+            this.wait = new Wait(browser, browser.logger);
         }
 
         public void Click(TimeSpan timeToWait = default)
         {
-            wait.ForElementClickable(xpath, timeToWait).Click();            
+            var element = wait.ForElementClickable(xpath, timeToWait);
+
+            browser.logger.Information(LogMessageMasks.Operation, browser.BrowserName, MethodBase.GetCurrentMethod().Name, xpath);
+            element.Click();            
         }
 
         public bool IsDisplayed(TimeSpan timeToWait = default) 
         {
-            return wait.ForElementVisible(xpath, timeToWait).Displayed;
+            var element = wait.ForElementVisible(xpath, timeToWait);
+
+            browser.logger.Information(LogMessageMasks.Operation, browser.BrowserName, MethodBase.GetCurrentMethod().Name, xpath);
+            return element.Displayed;
         }
 
         public bool IsNotDisplayed(TimeSpan timeToWait = default)
@@ -32,7 +40,10 @@ namespace Automated.UI.Elements
 
         public string GetAttribute(string attributeName, TimeSpan timeToWait = default)
         {
-            return wait.ForElementVisible(xpath, timeToWait).GetAttribute(attributeName);
+            var element = wait.ForElementVisible(xpath, timeToWait);
+
+            browser.logger.Information(LogMessageMasks.Operation, browser.BrowserName, $"{MethodBase.GetCurrentMethod().Name} '{attributeName}'", xpath);
+            return element.GetAttribute(attributeName);
         }
 
         public void SetElementValue(string value, TimeSpan timeToWait = default)

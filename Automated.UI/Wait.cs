@@ -1,6 +1,9 @@
-﻿using OpenQA.Selenium;
+﻿using Automated.UI.Helpers;
+using OpenQA.Selenium;
 using OpenQA.Selenium.Support.UI;
+using Serilog;
 using System;
+using System.Reflection;
 
 namespace Automated.UI
 {
@@ -9,15 +12,21 @@ namespace Automated.UI
         private readonly TimeSpan DefaultTimeToWait = new TimeSpan(0, 0, 10);
 
         private readonly IWebDriver driver;
+        private readonly Browser browser;
+        private readonly ILogger logger;
 
-        public Wait(IWebDriver driver)
+        public Wait(Browser browser, ILogger logger)
         {
-            this.driver = driver;
+            this.browser = browser;
+            this.driver = browser.Driver;
+            this.logger = logger;
         }
 
         internal IWebElement ForElementClickable(string xpath, TimeSpan timeToWait = default)
         {
-            Func<IWebDriver, IWebElement> condition(By locator) 
+            logger.Information(LogMessageMasks.Operation, browser.BrowserName, $"WAIT {MethodBase.GetCurrentMethod().Name}", xpath);
+
+            Func<IWebDriver, IWebElement> condition(By locator)
             {
                 return (driver) =>
                 {
@@ -45,7 +54,8 @@ namespace Automated.UI
         }
 
         internal IWebElement ForElementVisible(string xpath, TimeSpan timeToWait = default)
-        { 
+        {
+            logger.Information(LogMessageMasks.Operation, browser.BrowserName, $"WAIT {MethodBase.GetCurrentMethod().Name}", xpath);
             Func<IWebDriver, IWebElement> condition(By locator)
             {
                 return (driver) =>
@@ -67,6 +77,7 @@ namespace Automated.UI
 
         internal bool ForElementNotVisible(string xpath, TimeSpan timeToWait = default)
         {
+            logger.Information(LogMessageMasks.Operation, browser.BrowserName, $"WAIT {MethodBase.GetCurrentMethod().Name}", xpath);
             Func<IWebDriver, bool> condition(By locator)
             {
                 return (driver) =>
@@ -86,8 +97,10 @@ namespace Automated.UI
             return wait.Until(condition(By.XPath(xpath)));
         }
 
-        internal bool ForElementHaveText(string xpath, string text, TimeSpan timeToWait = default)
+        internal bool ForElementHasText(string xpath, string text, TimeSpan timeToWait = default)
         {
+            logger.Information(LogMessageMasks.Operation, browser.BrowserName, $"WAIT {MethodBase.GetCurrentMethod().Name}", xpath);
+
             Func<IWebDriver, bool> condition(By locator)
             {
                 return (driver) =>

@@ -14,11 +14,11 @@ namespace Automated.UI
 
         public Js Js { get; set; }
 
-        private BrowserType browserType;
-
         public string BrowserName { get; private set; }
 
-        public ILogger logger;
+        private BrowserType browserType;
+
+        internal ILogger logger;
 
         public Browser(BrowserType browserType, string browserName, ILogger logger)
         {
@@ -30,9 +30,8 @@ namespace Automated.UI
             {
                 case BrowserType.Chrome:
                     var options = new ChromeOptions();
-                    //options.AddArgument("headless");
+                    options.AddArgument("headless");
 
-                    logger.Information("=======================================");
                     logger.Information(LogMessageMasks.Operation, browserName, "CREATING BROWSER INSCANCE", nameof(BrowserType.Chrome));
 
                     Driver = new ChromeDriver(options);
@@ -58,6 +57,13 @@ namespace Automated.UI
 
             Driver.Quit();
             Driver.Dispose();
+        }
+
+        public void SaveScreenShot(string filePath)
+        {
+            logger.Information(LogMessageMasks.Operation, BrowserName, "CREATING SCREENSHOT", filePath);
+
+            ((ITakesScreenshot)Driver).GetScreenshot().SaveAsFile(filePath);
         }
 
         public Browser Clone(string browserName)

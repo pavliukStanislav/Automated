@@ -13,13 +13,14 @@ namespace Automated.UI
 
         private readonly IWebDriver driver;
         private readonly Browser browser;
+
         private readonly ILogger logger;
 
-        public Wait(Browser browser, ILogger logger)
+        public Wait(Browser browser)
         {
             this.browser = browser;
             this.driver = browser.Driver;
-            this.logger = logger;
+            this.logger = browser.logger;
         }
 
         internal IWebElement ForElementClickable(string xpath, TimeSpan timeToWait = default)

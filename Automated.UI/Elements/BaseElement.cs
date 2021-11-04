@@ -1,4 +1,5 @@
 ﻿using Automated.UI.Helpers;
+using Serilog;
 using System;
 using System.Reflection;
 
@@ -14,7 +15,7 @@ namespace Automated.UI.Elements
         {
             this.xpath = xpath;
             this.browser = browser;
-            this.wait = new Wait(browser, browser.logger);
+            this.wait = new Wait(browser);
         }
 
         public void Click(TimeSpan timeToWait = default)

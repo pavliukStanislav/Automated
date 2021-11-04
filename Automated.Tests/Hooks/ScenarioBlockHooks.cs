@@ -1,6 +1,4 @@
-﻿using System;
-using System.Reflection;
-using TechTalk.SpecFlow;
+﻿using TechTalk.SpecFlow;
 
 namespace Automated.Tests.Hooks
 {

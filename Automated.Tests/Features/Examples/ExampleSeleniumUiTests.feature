@@ -11,11 +11,11 @@ Scenario: Assert google search results exists
 Scenario: Assert google search results exists in few browsers in the same time
 	Given User navigates to Google Search Main page
 	When User searchs 'google' on the Google Search Main page
-		* User opens new browser with name 'another'
-		* User makes 'another' browser main one
+		* User opens new browser with name 'another browser'
+		* User makes 'another browser' browser main one
 		* User navigates to Google Search Main page
 		* User searchs 'google' on the Google Search Main page
-		* User makes 'main' browser main one
+		* User makes 'main browser' browser main one
 	Then User checks 'www.google' presents on the Google Search Results page
-	When User makes 'another' browser main one
+	When User makes 'another browser' browser main one
 	Then User checks 'www.google' presents on the Google Search Results page

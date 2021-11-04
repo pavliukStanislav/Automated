@@ -25,7 +25,7 @@ namespace Automated.Tests.Hooks
         public ScenarioHooks(ScenarioContext sContext)
         {
             _scenarioContext = sContext;
-            LogsFileName = $"{_scenarioContext.ScenarioInfo.Title}_{DateTime.Now.ToString("yyyyMMddHHmmss")}.log";
+            LogsFileName = $"{_scenarioContext.ScenarioInfo.Title}_{Guid.NewGuid()}.log";
         }
 
         [BeforeScenario(Order = 0)]

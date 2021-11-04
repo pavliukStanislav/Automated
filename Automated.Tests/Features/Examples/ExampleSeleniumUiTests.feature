@@ -8,6 +8,12 @@ Scenario: Assert google search results exists
 	Then User checks 'www.google' presents on the Google Search Results page
 
 @uiTest
+Scenario: Assert google search results exists FAILED
+	Given User navigates to Google Search Main page
+	When User searchs 'google' on the Google Search Main page
+	Then User checks 'asdasd' presents on the Google Search Results page
+
+@uiTest
 Scenario: Assert google search results exists in few browsers in the same time
 	Given User navigates to Google Search Main page
 	When User searchs 'google' on the Google Search Main page

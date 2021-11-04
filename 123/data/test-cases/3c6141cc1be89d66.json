@@ -1,0 +1,207 @@
+{
+  "uid" : "3c6141cc1be89d66",
+  "name" : "Scenario outline example",
+  "fullName" : "Scenario outline example",
+  "historyId" : "Scenario outline example-1024093223",
+  "time" : {
+    "start" : 1636040738361,
+    "stop" : 1636040738361,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "CreateLoggerInstance [0]",
+    "time" : {
+      "start" : 1636040738361,
+      "stop" : 1636040738361,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "BeforeFeature [0]",
+    "time" : {
+      "start" : 1636040738331,
+      "stop" : 1636040738331,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given  this is given for all scenarious in feature",
+      "time" : {
+        "start" : 1636040738361,
+        "stop" : 1636040738361,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Given  step with 3 parameter",
+      "time" : {
+        "start" : 1636040738361,
+        "stop" : 1636040738361,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "When  step with 4 parameter",
+      "time" : {
+        "start" : 1636040738361,
+        "stop" : 1636040738361,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 3,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ {
+    "name" : "AddLogsToAllure [0]",
+    "time" : {
+      "start" : 1636040738361,
+      "stop" : 1636040738362,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "700527732ce12e6",
+      "name" : "Copy Scenario outline example_ab1c5a47-eac7-420a-8183-420342b74e1b.log",
+      "source" : "700527732ce12e6.log",
+      "type" : "text/plain",
+      "size" : 207
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 1
+  }, {
+    "name" : "AfterFeature [0]",
+    "time" : {
+      "start" : 1636040738370,
+      "stop" : 1636040738370,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "ParallelWorker#1"
+  }, {
+    "name" : "host",
+    "value" : "fv-az246-304"
+  }, {
+    "name" : "feature",
+    "value" : "Exmple with Gherkin Language"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "first",
+    "value" : "3"
+  }, {
+    "name" : "second",
+    "value" : "4"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "ad908e563299e2f1",
+        "reportUrl" : "https://pavliukStanislav.github.io/Automated/122//#testresult/ad908e563299e2f1",
+        "status" : "broken",
+        "statusDetails" : "The file '/home/runner/work/Automated/Automated/Automated.Tests/bin/Release/net5.0/logs/Scenario outline example/Copy Scenario outline example_20211104153750.log' already exists.",
+        "time" : {
+          "start" : 1636040270487,
+          "stop" : 1636040270487,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "fd18698a5949debc",
+        "reportUrl" : "https://pavliukStanislav.github.io/Automated/121//#testresult/fd18698a5949debc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635981807473,
+          "stop" : 1635981807473,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "d0f530d53adc32d3",
+        "reportUrl" : "https://pavliukStanislav.github.io/Automated/120//#testresult/d0f530d53adc32d3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1634641062969,
+          "stop" : 1634641062971,
+          "duration" : 2
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "3c6141cc1be89d66.json",
+  "parameterValues" : [ "3", "4" ]
+}

@@ -1,0 +1,226 @@
+{
+  "uid" : "c296dcaee10ef6be",
+  "name" : "Assist helpers",
+  "fullName" : "Assist helpers",
+  "historyId" : "Assist helpers",
+  "time" : {
+    "start" : 1636040737760,
+    "stop" : 1636040737803,
+    "duration" : 43
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "CreateLoggerInstance [0]",
+    "time" : {
+      "start" : 1636040737671,
+      "stop" : 1636040737699,
+      "duration" : 28
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "BeforeFeature [0]",
+    "time" : {
+      "start" : 1636040737655,
+      "stop" : 1636040737656,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given  Create instance from table step",
+      "time" : {
+        "start" : 1636040737769,
+        "stop" : 1636040737794,
+        "duration" : 25
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "First",
+        "value" : "sda"
+      }, {
+        "name" : "Second",
+        "value" : "secondData"
+      } ],
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "When  Create another instanse from tabe step",
+      "time" : {
+        "start" : 1636040737795,
+        "stop" : 1636040737797,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "asdwed",
+        "value" : "secondData"
+      } ],
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "And  Compare instance step",
+      "time" : {
+        "start" : 1636040737797,
+        "stop" : 1636040737803,
+        "duration" : 6
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "First perfect",
+        "value" : "Second perfect"
+      } ],
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 3,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ {
+    "name" : "AddLogsToAllure [0]",
+    "time" : {
+      "start" : 1636040737803,
+      "stop" : 1636040737803,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "270424352b79121e",
+      "name" : "Copy Assist helpers_5876d9f2-b47c-4542-a32f-18bed6706316.log",
+      "source" : "270424352b79121e.log",
+      "type" : "text/plain",
+      "size" : 207
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 1
+  }, {
+    "name" : "AfterFeature [0]",
+    "time" : {
+      "start" : 1636040738327,
+      "stop" : 1636040738327,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "ParallelWorker#1"
+  }, {
+    "name" : "host",
+    "value" : "fv-az246-304"
+  }, {
+    "name" : "feature",
+    "value" : "Example specflow"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "thisIsTms",
+    "url" : "https://auto.ria.com/uk/thisIsTms",
+    "type" : "tms"
+  }, {
+    "name" : "thisIsLink",
+    "url" : "thisIsLink"
+  }, {
+    "name" : "thisIsIssue",
+    "url" : "https://auto.ria.com/uk/thisIsIssue",
+    "type" : "issue"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "a701602e9f9aa112",
+        "reportUrl" : "https://pavliukStanislav.github.io/Automated/122//#testresult/a701602e9f9aa112",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636040269856,
+          "stop" : 1636040269900,
+          "duration" : 44
+        }
+      }, {
+        "uid" : "b71bd50baf7d405",
+        "reportUrl" : "https://pavliukStanislav.github.io/Automated/121//#testresult/b71bd50baf7d405",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635981806894,
+          "stop" : 1635981806944,
+          "duration" : 50
+        }
+      }, {
+        "uid" : "3fbbd999b4c1b648",
+        "reportUrl" : "https://pavliukStanislav.github.io/Automated/120//#testresult/3fbbd999b4c1b648",
+        "status" : "passed",
+        "time" : {
+          "start" : 1634641062114,
+          "stop" : 1634641062184,
+          "duration" : 70
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "c296dcaee10ef6be.json",
+  "parameterValues" : [ ]
+}

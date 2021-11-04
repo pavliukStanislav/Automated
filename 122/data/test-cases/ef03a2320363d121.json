@@ -1,0 +1,182 @@
+{
+  "uid" : "ef03a2320363d121",
+  "name" : "Scenario with table",
+  "fullName" : "Scenario with table",
+  "historyId" : "Scenario with table",
+  "time" : {
+    "start" : 1636040270496,
+    "stop" : 1636040270498,
+    "duration" : 2
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "CreateLoggerInstance [0]",
+    "time" : {
+      "start" : 1636040270495,
+      "stop" : 1636040270496,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "BeforeFeature [0]",
+    "time" : {
+      "start" : 1636040270453,
+      "stop" : 1636040270453,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given  this is given for all scenarious in feature",
+      "time" : {
+        "start" : 1636040270496,
+        "stop" : 1636040270496,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Given  this is given with table",
+      "time" : {
+        "start" : 1636040270496,
+        "stop" : 1636040270498,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "data11",
+        "value" : "data12"
+      }, {
+        "name" : "data21",
+        "value" : "data22"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "AddLogsToAllure [0]",
+    "time" : {
+      "start" : 1636040270498,
+      "stop" : 1636040270498,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "ba81dfd4d6eaf60",
+      "name" : "Copy Scenario with table_20211104153750.log",
+      "source" : "ba81dfd4d6eaf60.log",
+      "type" : "text/plain",
+      "size" : 207
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "AfterFeature [0]",
+    "time" : {
+      "start" : 1636040270498,
+      "stop" : 1636040270498,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "ParallelWorker#2"
+  }, {
+    "name" : "host",
+    "value" : "fv-az133-405"
+  }, {
+    "name" : "feature",
+    "value" : "Exmple with Gherkin Language"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "6b5525ed94489826",
+        "reportUrl" : "https://pavliukStanislav.github.io/Automated/121//#testresult/6b5525ed94489826",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635981807476,
+          "stop" : 1635981807481,
+          "duration" : 5
+        }
+      }, {
+        "uid" : "7e1e626335ba04f3",
+        "reportUrl" : "https://pavliukStanislav.github.io/Automated/120//#testresult/7e1e626335ba04f3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1634641062984,
+          "stop" : 1634641062989,
+          "duration" : 5
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "ef03a2320363d121.json",
+  "parameterValues" : [ ]
+}

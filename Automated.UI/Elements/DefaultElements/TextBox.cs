@@ -4,17 +4,19 @@ namespace Automated.UI.Elements.DefaultElements
 {
     public class TextBox : BaseElement
     {
-        public string Text 
+        public string Text
         {
-            get {
+            get
+            {
                 return wait.ForElementVisible(xpath).Text;
             }
-            set {
+            set
+            {
                 wait.ForElementVisible(xpath).SendKeys(value);
             }
         }
 
-        public string Value 
+        public string Value
         {
             get
             {

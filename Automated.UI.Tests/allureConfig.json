@@ -1,0 +1,42 @@
+{
+  "allure": {
+    "directory": "allure-results",
+    "links": [
+      "https://auto.ria.com/uk/{link}",
+      "https://auto.ria.com/uk/{issue}",
+      "https://auto.ria.com/uk/{tms}"
+    ]
+  },
+  "specflow": {
+    "stepArguments": {
+      "convertToParameters": "true",
+      "paramNameRegex": "",
+      "paramValueRegex": ""
+    },
+    "grouping": {
+      "suites": {
+        "parentSuite": "^parentSuite:?(.+)",
+        "suite": "^suite:?(.+)",
+        "subSuite": "^subSuite:?(.+)"
+      },
+      "behaviors": {
+        "epic": "^epic:?(.+)",
+        "story": "^story:?(.+)"
+      },
+      "packages": {
+        "package": "^package:?(.+)",
+        "testClass": "^class:?(.+)",
+        "testMethod": "^method:?(.+)"
+      }
+    },
+    "labels": {
+      "owner": "^owner:?(.+)",
+      "severity": "^(normal|blocker|critical|minor|trivial)"
+    },
+    "links": {
+      "link": "^link:(.+)",
+      "issue": "^issue:(.+)",
+      "tms": "^tms:(.+)"
+    }
+  }
+}

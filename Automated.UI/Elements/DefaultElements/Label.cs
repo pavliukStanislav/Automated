@@ -4,11 +4,12 @@ namespace Automated.UI.Elements.DefaultElements
 {
     public class Label : BaseElement
     {
-        public string Text 
+        public string Text
         {
-            get {
+            get
+            {
                 return wait.ForElementVisible(xpath).Text;
-            }            
+            }
         }
 
         public Label(string xpath, Browser browser) : base(xpath, browser)

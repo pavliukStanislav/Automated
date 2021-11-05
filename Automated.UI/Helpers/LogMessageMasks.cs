@@ -2,6 +2,6 @@
 {
     internal static class LogMessageMasks
     {
-        public const string Operation = "{0} : {1} - {2}"; 
+        public const string Operation = "{0} : {1} - {2}";
     }
 }

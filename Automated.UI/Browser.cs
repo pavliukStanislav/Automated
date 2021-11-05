@@ -44,7 +44,7 @@ namespace Automated.UI
             Js = new Js(Driver);
         }
 
-        public void GoToUrl(string url) 
+        public void GoToUrl(string url)
         {
             logger.Information(LogMessageMasks.Operation, BrowserName, MethodBase.GetCurrentMethod().Name, url);
             Driver.Navigate().GoToUrl(url);

@@ -1,5 +1,4 @@
 ﻿using Automated.UI.Helpers;
-using Serilog;
 using System;
 using System.Reflection;
 
@@ -23,10 +22,10 @@ namespace Automated.UI.Elements
             var element = wait.ForElementClickable(xpath, timeToWait);
 
             browser.logger.Information(LogMessageMasks.Operation, browser.BrowserName, MethodBase.GetCurrentMethod().Name, xpath);
-            element.Click();            
+            element.Click();
         }
 
-        public bool IsDisplayed(TimeSpan timeToWait = default) 
+        public bool IsDisplayed(TimeSpan timeToWait = default)
         {
             var element = wait.ForElementVisible(xpath, timeToWait);
 

@@ -17,6 +17,11 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Automated.PagesImplementation", "Automated.PagesImplementation\Automated.PagesImplementation.csproj", "{D656E723-75AE-4DEC-96CD-162F70568419}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Automated.API.Tests", "Automated.API.Tests\Automated.API.Tests.csproj", "{FCC504BD-E4C5-4E6E-8BFC-5D1EB72AEBA9}"
+	ProjectSection(ProjectDependencies) = postProject
+		{EE845419-8FF3-4ADF-BC6B-6F20B76136CC} = {EE845419-8FF3-4ADF-BC6B-6F20B76136CC}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Automated.Configurations", "Automated.Configurations\Automated.Configurations.csproj", "{EE845419-8FF3-4ADF-BC6B-6F20B76136CC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -48,6 +53,10 @@ Global
 		{FCC504BD-E4C5-4E6E-8BFC-5D1EB72AEBA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FCC504BD-E4C5-4E6E-8BFC-5D1EB72AEBA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FCC504BD-E4C5-4E6E-8BFC-5D1EB72AEBA9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE845419-8FF3-4ADF-BC6B-6F20B76136CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE845419-8FF3-4ADF-BC6B-6F20B76136CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE845419-8FF3-4ADF-BC6B-6F20B76136CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE845419-8FF3-4ADF-BC6B-6F20B76136CC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

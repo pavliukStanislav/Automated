@@ -20,8 +20,12 @@ jobs:
       run: dotnet build --no-restore --configuration Release
     - uses: actions/upload-artifact@v2
       with:
-        name: build_results
-        path: Automated.Tests/bin/Release/net6.0
+        name: api_tests_build_results
+        path: Automated.API.Tests/bin/Release/net6.0
+    - uses: actions/upload-artifact@v2
+      with:
+        name: ui_tests_build_results
+        path: Automated.UI.Tests/bin/Release/net6.0
       
   api_tests:
       
@@ -31,7 +35,7 @@ jobs:
     steps:
     - uses: actions/download-artifact@v2
       with:
-        name: build_results
+        name: api_tests_build_results
         
     - name: echo      
       run: echo "test started"

@@ -78,6 +78,9 @@ jobs:
       with:
         name: ui_tests_build_results
     
+    - name: Adding user permissions
+      run: chmod a+x /home/runner/work/Automated/Automated/chromedriver
+    
     - name: Run tests
       run: dotnet test Automated.UI.Tests.dll --no-build --configuration Release
     
@@ -103,7 +106,7 @@ jobs:
     - name: Download UI tests result
       uses: actions/download-artifact@v2
       with:
-        name: ui_tests_alure_results
+        name: ui_tests_allure_results
         
     - name: Move results to new folder
       run: mv ~/* ~/allure-results 

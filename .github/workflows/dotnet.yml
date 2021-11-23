@@ -6,10 +6,8 @@ on:
     branches: [ main ]
 
 jobs:
-  build_runTests:
-
+  build:
     runs-on: ubuntu-latest
-
     steps:
     - uses: actions/checkout@v2
     - name: Setup .NET
@@ -20,6 +18,24 @@ jobs:
       run: dotnet restore
     - name: Build
       run: dotnet build --no-restore --configuration Release
+    - uses: actions/upload-artifact@v2
+      with:
+        name: build_results
+        path: Automated.Tests/bin/Release/net6.0
+      
+  api_tests:
+      
+    runs-on: ubuntu-latest
+            
+    steps:
+    - uses: actions/download-artifact@v2
+      with:
+        name: build_results
+        
+    - name: echo      
+      run: echo "test started"
+    - name: current_folder_filed
+      run: ls -a
     - name: Test
       run: dotnet test --no-build --verbosity normal --configuration Release
 

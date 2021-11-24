@@ -109,7 +109,10 @@ jobs:
         name: ui_tests_allure_results
         
     - name: Move results to new folder
-      run: mkdir allure-results; mv ~/* ~/allure-results 
+      run: mkdir allure-results; mv ~/* allure-results 
+    
+    - name: LS
+      run: ls -a
     
     - name: Get Allure history
       uses: actions/checkout@v2

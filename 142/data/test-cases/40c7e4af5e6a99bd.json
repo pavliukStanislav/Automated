@@ -1,0 +1,185 @@
+{
+  "uid" : "40c7e4af5e6a99bd",
+  "name" : "Assert google search results exists",
+  "fullName" : "Assert google search results exists",
+  "historyId" : "Assert google search results exists",
+  "time" : {
+    "start" : 1637713747881,
+    "stop" : 1637713750956,
+    "duration" : 3075
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "CreateLoggerInstance [0]",
+    "time" : {
+      "start" : 1637713746439,
+      "stop" : 1637713746465,
+      "duration" : 26
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "BeforeFeature [0]",
+    "time" : {
+      "start" : 1637713746423,
+      "stop" : 1637713746424,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given  User navigates to Google Search Main page",
+      "time" : {
+        "start" : 1637713747888,
+        "stop" : 1637713748462,
+        "duration" : 574
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When  User searchs 'google' on the Google Search Main page",
+      "time" : {
+        "start" : 1637713748463,
+        "stop" : 1637713750908,
+        "duration" : 2445
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then  User checks 'www.google' presents on the Google Search Results page",
+      "time" : {
+        "start" : 1637713750909,
+        "stop" : 1637713750950,
+        "duration" : 41
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "AddLogsToAllure [0]",
+    "time" : {
+      "start" : 1637713750956,
+      "stop" : 1637713750967,
+      "duration" : 11
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "2eea31f032f74572",
+      "name" : "Copy Assert google search results exists_13eedad3-82a3-4683-ad3e-756f7b739ce1.log",
+      "source" : "2eea31f032f74572.log",
+      "type" : "text/plain",
+      "size" : 938
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "AfterFeature [0]",
+    "time" : {
+      "start" : 1637713759224,
+      "stop" : 1637713759224,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "ParallelWorker#2"
+  }, {
+    "name" : "host",
+    "value" : "fv-az163-805"
+  }, {
+    "name" : "feature",
+    "value" : "ExampleSpecflowUiTests"
+  }, {
+    "name" : "tag",
+    "value" : "uiTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "4e2a136291e1026e",
+        "reportUrl" : "https://pavliukStanislav.github.io/Automated/141//#testresult/4e2a136291e1026e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637713484311,
+          "stop" : 1637713489746,
+          "duration" : 5435
+        }
+      } ]
+    },
+    "tags" : [ "uiTest" ]
+  },
+  "source" : "40c7e4af5e6a99bd.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,176 @@
+{
+  "uid" : "ba9ca599ee7bd1f6",
+  "name" : "Get default json configuration",
+  "fullName" : "Get default json configuration",
+  "historyId" : "Get default json configuration",
+  "time" : {
+    "start" : 1637713720419,
+    "stop" : 1637713720479,
+    "duration" : 60
+  },
+  "status" : "failed",
+  "statusMessage" : "Expected string to be equivalent to \"user@user.com\", but found <null>.",
+  "statusTrace" : "NUnit.Framework.AssertionException: Expected string to be equivalent to \"user@user.com\", but found <null>.\n   at FluentAssertions.Execution.LateBoundTestFramework.Throw(String message)\n   at FluentAssertions.Execution.TestFrameworkProvider.Throw(String message)\n   at FluentAssertions.Execution.DefaultAssertionStrategy.HandleFailure(String message)\n   at FluentAssertions.Execution.AssertionScope.FailWith(Func`1 failReasonFunc)\n   at FluentAssertions.Execution.AssertionScope.FailWith(Func`1 failReasonFunc)\n   at FluentAssertions.Execution.AssertionScope.FailWith(String message, Object[] args)\n   at FluentAssertions.Primitives.StringValidator.ValidateAgainstNulls()\n   at FluentAssertions.Primitives.StringValidator.Validate()\n   at FluentAssertions.Primitives.StringAssertions`1.BeEquivalentTo(String expected, String because, Object[] becauseArgs)\n   at Automated.API.Tests.Steps.Examples.WorkWithConfigurationSteps.GivenAssertUserEmailFromJsonIsEqualTo(String expectedEmail) in /home/runner/work/Automated/Automated/Automated.API.Tests/Steps/Examples/WorkWithConfigurationSteps.cs:line 13\n   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\n   at Allure.SpecFlowPlugin.AllureBindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments)\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "CreateLoggerInstance [0]",
+    "time" : {
+      "start" : 1637713720419,
+      "stop" : 1637713720419,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "BeforeFeature [0]",
+    "time" : {
+      "start" : 1637713720418,
+      "stop" : 1637713720418,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Expected string to be equivalent to \"user@user.com\", but found <null>.",
+    "statusTrace" : "NUnit.Framework.AssertionException: Expected string to be equivalent to \"user@user.com\", but found <null>.\n   at FluentAssertions.Execution.LateBoundTestFramework.Throw(String message)\n   at FluentAssertions.Execution.TestFrameworkProvider.Throw(String message)\n   at FluentAssertions.Execution.DefaultAssertionStrategy.HandleFailure(String message)\n   at FluentAssertions.Execution.AssertionScope.FailWith(Func`1 failReasonFunc)\n   at FluentAssertions.Execution.AssertionScope.FailWith(Func`1 failReasonFunc)\n   at FluentAssertions.Execution.AssertionScope.FailWith(String message, Object[] args)\n   at FluentAssertions.Primitives.StringValidator.ValidateAgainstNulls()\n   at FluentAssertions.Primitives.StringValidator.Validate()\n   at FluentAssertions.Primitives.StringAssertions`1.BeEquivalentTo(String expected, String because, Object[] becauseArgs)\n   at Automated.API.Tests.Steps.Examples.WorkWithConfigurationSteps.GivenAssertUserEmailFromJsonIsEqualTo(String expectedEmail) in /home/runner/work/Automated/Automated/Automated.API.Tests/Steps/Examples/WorkWithConfigurationSteps.cs:line 13\n   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\n   at Allure.SpecFlowPlugin.AllureBindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments)\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)",
+    "steps" : [ {
+      "name" : "Given  Assert user email from json is equal to 'user@user.com'",
+      "time" : {
+        "start" : 1637713720419,
+        "stop" : 1637713720456,
+        "duration" : 37
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When  Assert user email from command line is equal to 'usercommand@user.com'",
+      "time" : {
+        "start" : 1637713720456,
+        "stop" : 1637713720464,
+        "duration" : 8
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "AddLogsToAllure [0]",
+    "time" : {
+      "start" : 1637713720479,
+      "stop" : 1637713720479,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "4ad911b2fdfcb8ab",
+      "name" : "Copy Get default json configuration_dd534286-b7b4-4f04-8050-da3af74d16f7.log",
+      "source" : "4ad911b2fdfcb8ab.log",
+      "type" : "text/plain",
+      "size" : 207
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "AfterFeature [0]",
+    "time" : {
+      "start" : 1637713720489,
+      "stop" : 1637713720489,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "ParallelWorker#1"
+  }, {
+    "name" : "host",
+    "value" : "fv-az224-647"
+  }, {
+    "name" : "feature",
+    "value" : "Work With Configuration"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 2,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "9ecea1f8c0c699a1",
+        "reportUrl" : "https://pavliukStanislav.github.io/Automated/141//#testresult/9ecea1f8c0c699a1",
+        "status" : "failed",
+        "statusDetails" : "Expected string to be equivalent to \"user@user.com\", but found <null>.",
+        "time" : {
+          "start" : 1637713448969,
+          "stop" : 1637713449005,
+          "duration" : 36
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "ba9ca599ee7bd1f6.json",
+  "parameterValues" : [ ]
+}

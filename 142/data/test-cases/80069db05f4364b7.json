@@ -1,0 +1,290 @@
+{
+  "uid" : "80069db05f4364b7",
+  "name" : "Assert google search results exists in few browsers in the same time",
+  "fullName" : "Assert google search results exists in few browsers in the same time",
+  "historyId" : "Assert google search results exists in few browsers in the same time",
+  "time" : {
+    "start" : 1637713754244,
+    "stop" : 1637713759107,
+    "duration" : 4863
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "CreateLoggerInstance [0]",
+    "time" : {
+      "start" : 1637713754061,
+      "stop" : 1637713754061,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "BeforeFeature [0]",
+    "time" : {
+      "start" : 1637713746423,
+      "stop" : 1637713746424,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given  User navigates to Google Search Main page",
+      "time" : {
+        "start" : 1637713754244,
+        "stop" : 1637713754664,
+        "duration" : 420
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When  User searchs 'google' on the Google Search Main page",
+      "time" : {
+        "start" : 1637713754664,
+        "stop" : 1637713756595,
+        "duration" : 1931
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "*  User opens new browser with name 'another browser'",
+      "time" : {
+        "start" : 1637713756596,
+        "stop" : 1637713756742,
+        "duration" : 146
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "*  User makes 'another browser' browser main one",
+      "time" : {
+        "start" : 1637713756742,
+        "stop" : 1637713756744,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "*  User navigates to Google Search Main page",
+      "time" : {
+        "start" : 1637713756744,
+        "stop" : 1637713757133,
+        "duration" : 389
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "*  User searchs 'google' on the Google Search Main page",
+      "time" : {
+        "start" : 1637713757133,
+        "stop" : 1637713759030,
+        "duration" : 1897
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "*  User makes 'main browser' browser main one",
+      "time" : {
+        "start" : 1637713759031,
+        "stop" : 1637713759031,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then  User checks 'www.google' presents on the Google Search Results page",
+      "time" : {
+        "start" : 1637713759031,
+        "stop" : 1637713759065,
+        "duration" : 34
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When  User makes 'another browser' browser main one",
+      "time" : {
+        "start" : 1637713759065,
+        "stop" : 1637713759065,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then  User checks 'www.google' presents on the Google Search Results page",
+      "time" : {
+        "start" : 1637713759065,
+        "stop" : 1637713759107,
+        "duration" : 42
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 10,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "AddLogsToAllure [0]",
+    "time" : {
+      "start" : 1637713759107,
+      "stop" : 1637713759108,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "af87b1974389ac90",
+      "name" : "Copy Assert google search results exists in few browsers in the same time_557b0c3d-ab3e-4117-b7a7-374e14e24648.log",
+      "source" : "af87b1974389ac90.log",
+      "type" : "text/plain",
+      "size" : 1690
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "AfterFeature [0]",
+    "time" : {
+      "start" : 1637713759224,
+      "stop" : 1637713759224,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "ParallelWorker#2"
+  }, {
+    "name" : "host",
+    "value" : "fv-az163-805"
+  }, {
+    "name" : "feature",
+    "value" : "ExampleSpecflowUiTests"
+  }, {
+    "name" : "tag",
+    "value" : "uiTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "61b677f66a903398",
+        "reportUrl" : "https://pavliukStanislav.github.io/Automated/141//#testresult/61b677f66a903398",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637713493325,
+          "stop" : 1637713498483,
+          "duration" : 5158
+        }
+      } ]
+    },
+    "tags" : [ "uiTest" ]
+  },
+  "source" : "80069db05f4364b7.json",
+  "parameterValues" : [ ]
+}

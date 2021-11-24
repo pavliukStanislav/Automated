@@ -1,0 +1,151 @@
+[ {
+  "uid" : "539e79d9ec97f260",
+  "name" : "Scenario outline example",
+  "time" : {
+    "start" : 1637713448943,
+    "stop" : 1637713448943,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fd0ccd455661ec55",
+  "name" : "Occurrense contraint",
+  "time" : {
+    "start" : 1637713448860,
+    "stop" : 1637713448862,
+    "duration" : 2
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a05d897dda358c78",
+  "name" : "Assist helpers",
+  "time" : {
+    "start" : 1637713448667,
+    "stop" : 1637713448719,
+    "duration" : 52
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "5679d5a9394c6dd",
+  "name" : "Basic keywords example",
+  "time" : {
+    "start" : 1637713448917,
+    "stop" : 1637713448923,
+    "duration" : 6
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "a815c787788e006a",
+  "name" : "Assert google search results exists FAILED",
+  "time" : {
+    "start" : 1637713490057,
+    "stop" : 1637713493002,
+    "duration" : 2945
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "ed936ff326e7d1c3",
+  "name" : "Assertion scope",
+  "time" : {
+    "start" : 1637713448694,
+    "stop" : 1637713448858,
+    "duration" : 164
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "4e2a136291e1026e",
+  "name" : "Assert google search results exists",
+  "time" : {
+    "start" : 1637713484311,
+    "stop" : 1637713489746,
+    "duration" : 5435
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6e15daaccadd060",
+  "name" : "Scenario outline example",
+  "time" : {
+    "start" : 1637713448934,
+    "stop" : 1637713448936,
+    "duration" : 2
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "31a863877849c83b",
+  "name" : "Scenario with large string",
+  "time" : {
+    "start" : 1637713448945,
+    "stop" : 1637713448946,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "114431e9a0385811",
+  "name" : "Different parameters and transformations",
+  "time" : {
+    "start" : 1637713448729,
+    "stop" : 1637713449279,
+    "duration" : 550
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "61b677f66a903398",
+  "name" : "Assert google search results exists in few browsers in the same time",
+  "time" : {
+    "start" : 1637713493325,
+    "stop" : 1637713498483,
+    "duration" : 5158
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9ecea1f8c0c699a1",
+  "name" : "Get default json configuration",
+  "time" : {
+    "start" : 1637713448969,
+    "stop" : 1637713449005,
+    "duration" : 36
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "1071033ad4cecfaa",
+  "name" : "And in assertion",
+  "time" : {
+    "start" : 1637713448630,
+    "stop" : 1637713448664,
+    "duration" : 34
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1e5049ec963aa0d6",
+  "name" : "Tag scoping example",
+  "time" : {
+    "start" : 1637713449311,
+    "stop" : 1637713449312,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "92b01e1f97d85f7e",
+  "name" : "Scenario with table",
+  "time" : {
+    "start" : 1637713448955,
+    "stop" : 1637713448957,
+    "duration" : 2
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

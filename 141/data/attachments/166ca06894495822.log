@@ -1,0 +1,9 @@
+2021-11-24 00:24:38.252 +00:00 [INF] ===========================LOG STARTED===========================
+2021-11-24 00:24:38.276 +00:00 [INF] main browser : CREATING BROWSER INSCANCE - Chrome
+2021-11-24 00:24:44.329 +00:00 [INF] main browser : GoToUrl - https://www.google.com.ua/
+2021-11-24 00:24:46.449 +00:00 [INF] main browser : WAIT ForElementVisible - //input[@type='text']
+2021-11-24 00:24:46.609 +00:00 [INF] main browser : WAIT ForElementClickable - //div[@jsname]//input[@name='btnK']
+2021-11-24 00:24:47.548 +00:00 [INF] main browser : Click - //div[@jsname]//input[@name='btnK']
+2021-11-24 00:24:49.684 +00:00 [INF] main browser : WAIT ForElementVisible - (//div[@class='g']//div[@class='yuRUbf']/a)[1]
+2021-11-24 00:24:49.715 +00:00 [INF] main browser : GetAttribute 'href' - (//div[@class='g']//div[@class='yuRUbf']/a)[1]
+2021-11-24 00:24:49.747 +00:00 [INF] ===========================LOG FINISHED===========================

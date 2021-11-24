@@ -109,14 +109,6 @@ jobs:
         name: ui_tests_allure_results
         path: allure-results
         
-#     - name: Create new folder
-#     - name: Move results to new folder
-#       run: mkdir allure-results; find ~/* -type f -print0 | xargs -0 mv -t ~/allure-results/ 
-    
-#     - name: LS
-#       if: always()
-#       run: ls -a
-    
     - name: Get Allure history
       uses: actions/checkout@v2
       if: always()

@@ -1,6 +1,7 @@
 ﻿using Automated.UI;
 using Automated.UI.Elements;
 using Automated.UI.Elements.DefaultElements;
+using Automated.UI.Elements.Interfaces;
 
 namespace Automated.PagesImplementation.CustomElements.Examples
 {
@@ -13,6 +14,6 @@ namespace Automated.PagesImplementation.CustomElements.Examples
         }
 
         //class can be changed by google
-        public Link LinkResult => new Link($"({xpath}//div[@class='yuRUbf']/a)[{Index}]", browser);
+        public ILink LinkResult => new Link($"({xpath}//div[@class='yuRUbf']/a)[{Index}]", browser);
     }
 }

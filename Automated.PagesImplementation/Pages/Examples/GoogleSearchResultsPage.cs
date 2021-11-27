@@ -1,6 +1,8 @@
 ﻿using Automated.PagesImplementation.CustomElements.Examples;
 using Automated.UI;
+using Automated.UI.Elements;
 using Automated.UI.Elements.DefaultElements;
+using Automated.UI.Elements.Interfaces;
 
 namespace Automated.PagesImplementation.Pages.Examples
 {
@@ -10,8 +12,8 @@ namespace Automated.PagesImplementation.Pages.Examples
         {
         }
 
-        public TextBox TextBoxSearch => new TextBox("//input[@title='Search']", Browser);
-        public Button ButtonSearch => new Button("//button[@type='submit']", Browser);
+        public ITextBox TextBoxSearch => new TextBox("//input[@title='Search']", Browser);
+        public IButton ButtonSearch => new Button("//button[@type='submit']", Browser);
 
         public GoogleSearchResult GoogleSearchResult(int index) => new GoogleSearchResult("//div[@class='g']", index, Browser);
     }

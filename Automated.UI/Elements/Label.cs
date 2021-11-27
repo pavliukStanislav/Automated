@@ -1,8 +1,9 @@
-﻿using System;
+﻿using Automated.UI.Elements.Interfaces;
+using System;
 
 namespace Automated.UI.Elements.DefaultElements
 {
-    public class Label : BaseElement
+    public class Label : BaseElement, ILabel
     {
         public string Text
         {

@@ -1,5 +1,7 @@
 ﻿using Automated.UI;
+using Automated.UI.Elements;
 using Automated.UI.Elements.DefaultElements;
+using Automated.UI.Elements.Interfaces;
 
 namespace Automated.PagesImplementation.Pages.Examples
 {
@@ -7,7 +9,7 @@ namespace Automated.PagesImplementation.Pages.Examples
     {
         public GoogleSearchMainPage(Browser browser) : base(browser) { }
 
-        public TextBox TextBoxSearch => new TextBox("//input[@type='text']", Browser);
-        public Button ButtonSearch => new Button("//div[@jsname]//input[@name='btnK']", Browser);
+        public ITextBox TextBoxSearch => new TextBox("//input[@type='text']", Browser);
+        public IButton ButtonSearch => new Button("//div[@jsname]//input[@name='btnK']", Browser);
     }
 }

@@ -1,8 +1,9 @@
-﻿using System;
+﻿using Automated.UI.Elements.Interfaces;
+using System;
 
 namespace Automated.UI.Elements.DefaultElements
 {
-    public class TextBox : BaseElement
+    public class TextBox : BaseElement, ITextBox
     {
         public string Text
         {

@@ -1,10 +1,11 @@
-﻿using Automated.UI.Helpers;
+﻿using Automated.UI.Elements.Interfaces;
+using Automated.UI.Helpers;
 using System;
 using System.Reflection;
 
 namespace Automated.UI.Elements
 {
-    public class BaseElement
+    public class BaseElement : IBaseElement
     {
         protected string xpath;
         protected Wait wait;

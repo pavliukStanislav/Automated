@@ -6,35 +6,122 @@ on:
     branches: [ main ]
 
 jobs:
-  build_runTests:
-
+  build:
     runs-on: ubuntu-latest
-
     steps:
-    - uses: actions/checkout@v2
+    - name: Checkout
+      uses: actions/checkout@v2
+    
     - name: Setup .NET
       uses: actions/setup-dotnet@v1
       with:
-        dotnet-version: 5.0.x
+        dotnet-version: 6.0.x
+        
     - name: Restore dependencies
       run: dotnet restore
+      
     - name: Build
       run: dotnet build --no-restore --configuration Release
-    - name: Test
-      run: dotnet test --no-build --verbosity normal --configuration Release
+      
+    - name: Upload build artifacts for API tests
+      uses: actions/upload-artifact@v2
+      with:
+        name: api_tests_build_results
+        path: Automated.API.Tests/bin/Release/net6.0
+        
+    - name: Upload build artifacts for UI tests
+      uses: actions/upload-artifact@v2
+      with:
+        name: ui_tests_build_results
+        path: Automated.UI.Tests/bin/Release/net6.0
+      
+  api_tests:
+    runs-on: ubuntu-latest
+    needs: [build]
+    
+    steps:
+    
+    - name: Setup .NET
+      uses: actions/setup-dotnet@v1
+      with:
+        dotnet-version: 6.0.x
+    
+    - name: Download API tests artifacts
+      uses: actions/download-artifact@v2
+      with:
+        name: api_tests_build_results
+            
+    - name: Run tests
+      run: dotnet test Automated.API.Tests.dll --no-build --configuration Release
 
+    - name: Upload allure results
+      if: always()
+      uses: actions/upload-artifact@v2
+      with:
+        name: api_tests_alure_results
+        path: allure-results
+      
+  ui_tests:
+    runs-on: ubuntu-latest
+    needs: [api_tests]
+    if: always()
+    
+    steps:
+    
+    - name: Setup .NET
+      uses: actions/setup-dotnet@v1
+      with:
+        dotnet-version: 6.0.x
+        
+    - name: Download UI tests artifacts
+      uses: actions/download-artifact@v2
+      with:
+        name: ui_tests_build_results
+    
+    - name: Adding user permissions
+      run: chmod a+x /home/runner/work/Automated/Automated/chromedriver
+    
+    - name: Run tests
+      run: dotnet test Automated.UI.Tests.dll --no-build --configuration Release
+    
+    - name: Upload allure results
+      if: always()
+      uses: actions/upload-artifact@v2
+      with:
+        name: ui_tests_allure_results
+        path: allure-results
+    
+  deploy_results:
+    runs-on: ubuntu-latest
+    needs: [ui_tests, api_tests]
+    if: always()
+    
+    steps:
+    
+    - name: Download API tests result
+      uses: actions/download-artifact@v2
+      with:
+        name: api_tests_alure_results
+        path: allure-results
+    - name: Download UI tests result
+      uses: actions/download-artifact@v2
+      with:
+        name: ui_tests_allure_results
+        path: allure-results
+        
     - name: Get Allure history
       uses: actions/checkout@v2
       if: always()
       continue-on-error: true
       with:
         ref: gh-pages
-        path: gh-pages    
+        path: gh-pages
+        
     - name: Generate Allure Report
       uses: simple-elf/allure-report-action@master
       if: always()
       with:
-        allure_results: Automated.Tests/bin/Release/net5.0/allure-results
+        allure_results: allure-results
         allure_history: allure-history    
     
     - name: Deploy report to Github Pages

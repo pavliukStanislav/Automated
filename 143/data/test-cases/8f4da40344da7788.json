@@ -1,0 +1,279 @@
+{
+  "uid" : "8f4da40344da7788",
+  "name" : "Basic keywords example",
+  "fullName" : "Basic keywords example",
+  "historyId" : "Basic keywords example",
+  "time" : {
+    "start" : 1638040557275,
+    "stop" : 1638040557283,
+    "duration" : 8
+  },
+  "status" : "failed",
+  "statusMessage" : "Expected boolean to be false, but found True.",
+  "statusTrace" : "NUnit.Framework.AssertionException: Expected boolean to be false, but found True.\n   at FluentAssertions.Execution.LateBoundTestFramework.Throw(String message)\n   at FluentAssertions.Execution.TestFrameworkProvider.Throw(String message)\n   at FluentAssertions.Execution.DefaultAssertionStrategy.HandleFailure(String message)\n   at FluentAssertions.Execution.AssertionScope.FailWith(Func`1 failReasonFunc)\n   at FluentAssertions.Execution.AssertionScope.FailWith(Func`1 failReasonFunc)\n   at FluentAssertions.Execution.AssertionScope.FailWith(String message, Object[] args)\n   at FluentAssertions.Primitives.BooleanAssertions`1.BeFalse(String because, Object[] becauseArgs)\n   at Automated.API.Tests.Steps.ExampleGherkinLanguageSteps.ThenThisIsBut() in /home/runner/work/Automated/Automated/Automated.API.Tests/Steps/Examples/ExampleGherkinLanguageSteps.cs:line 52\n   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\n   at Allure.SpecFlowPlugin.AllureBindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments)\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "CreateLoggerInstance [0]",
+    "time" : {
+      "start" : 1638040557255,
+      "stop" : 1638040557255,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "SomeTag [10000]",
+    "time" : {
+      "start" : 1638040557255,
+      "stop" : 1638040557255,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "BeforeFeature [0]",
+    "time" : {
+      "start" : 1638040557254,
+      "stop" : 1638040557254,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Expected boolean to be false, but found True.",
+    "statusTrace" : "NUnit.Framework.AssertionException: Expected boolean to be false, but found True.\n   at FluentAssertions.Execution.LateBoundTestFramework.Throw(String message)\n   at FluentAssertions.Execution.TestFrameworkProvider.Throw(String message)\n   at FluentAssertions.Execution.DefaultAssertionStrategy.HandleFailure(String message)\n   at FluentAssertions.Execution.AssertionScope.FailWith(Func`1 failReasonFunc)\n   at FluentAssertions.Execution.AssertionScope.FailWith(Func`1 failReasonFunc)\n   at FluentAssertions.Execution.AssertionScope.FailWith(String message, Object[] args)\n   at FluentAssertions.Primitives.BooleanAssertions`1.BeFalse(String because, Object[] becauseArgs)\n   at Automated.API.Tests.Steps.ExampleGherkinLanguageSteps.ThenThisIsBut() in /home/runner/work/Automated/Automated/Automated.API.Tests/Steps/Examples/ExampleGherkinLanguageSteps.cs:line 52\n   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\n   at Allure.SpecFlowPlugin.AllureBindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments)\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)",
+    "steps" : [ {
+      "name" : "Given  this is given for all scenarious in feature",
+      "time" : {
+        "start" : 1638040557276,
+        "stop" : 1638040557276,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Given  this is given",
+      "time" : {
+        "start" : 1638040557276,
+        "stop" : 1638040557277,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And  this is and",
+      "time" : {
+        "start" : 1638040557277,
+        "stop" : 1638040557278,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "*  this is asterisk",
+      "time" : {
+        "start" : 1638040557278,
+        "stop" : 1638040557278,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When  this is when with 'string' parameter",
+      "time" : {
+        "start" : 1638040557278,
+        "stop" : 1638040557279,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then  this is then with int '3' parameter",
+      "time" : {
+        "start" : 1638040557279,
+        "stop" : 1638040557280,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "But  this is failed but",
+      "time" : {
+        "start" : 1638040557280,
+        "stop" : 1638040557283,
+        "duration" : 3
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 7,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "AddLogsToAllure [0]",
+    "time" : {
+      "start" : 1638040557283,
+      "stop" : 1638040557284,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "e1f35074a3eb7e1",
+      "name" : "Copy Basic keywords example_99657b01-6a92-4989-a779-e59340467db2.log",
+      "source" : "e1f35074a3eb7e1.log",
+      "type" : "text/plain",
+      "size" : 207
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "AfterFeature [0]",
+    "time" : {
+      "start" : 1638040557312,
+      "stop" : 1638040557312,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "ParallelWorker#1"
+  }, {
+    "name" : "host",
+    "value" : "fv-az252-737"
+  }, {
+    "name" : "feature",
+    "value" : "Exmple with Gherkin Language"
+  }, {
+    "name" : "tag",
+    "value" : "someTag"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 3,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "73d98673b269fd93",
+        "reportUrl" : "https://pavliukStanislav.github.io/Automated/142//#testresult/73d98673b269fd93",
+        "status" : "failed",
+        "statusDetails" : "Expected boolean to be false, but found True.",
+        "time" : {
+          "start" : 1637713720356,
+          "stop" : 1637713720364,
+          "duration" : 8
+        }
+      }, {
+        "uid" : "5679d5a9394c6dd",
+        "reportUrl" : "https://pavliukStanislav.github.io/Automated/141//#testresult/5679d5a9394c6dd",
+        "status" : "failed",
+        "statusDetails" : "Expected boolean to be false, but found True.",
+        "time" : {
+          "start" : 1637713448917,
+          "stop" : 1637713448923,
+          "duration" : 6
+        }
+      } ]
+    },
+    "tags" : [ "someTag" ]
+  },
+  "source" : "8f4da40344da7788.json",
+  "parameterValues" : [ ]
+}

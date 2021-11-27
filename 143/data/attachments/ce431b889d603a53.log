@@ -1,0 +1,16 @@
+2021-11-27 19:16:38.829 +00:00 [INF] ===========================LOG STARTED===========================
+2021-11-27 19:16:38.829 +00:00 [INF] main browser : CREATING BROWSER INSCANCE - Chrome
+2021-11-27 19:16:39.027 +00:00 [INF] main browser : GoToUrl - https://www.google.com.ua/
+2021-11-27 19:16:39.413 +00:00 [INF] main browser : WAIT ForElementVisible - //input[@type='text']
+2021-11-27 19:16:39.475 +00:00 [INF] main browser : WAIT ForElementClickable - //div[@jsname]//input[@name='btnK']
+2021-11-27 19:16:40.015 +00:00 [INF] main browser : Click - //div[@jsname]//input[@name='btnK']
+2021-11-27 19:16:41.475 +00:00 [INF] another browser : CREATING BROWSER INSCANCE - Chrome
+2021-11-27 19:16:41.628 +00:00 [INF] another browser : GoToUrl - https://www.google.com.ua/
+2021-11-27 19:16:41.985 +00:00 [INF] another browser : WAIT ForElementVisible - //input[@type='text']
+2021-11-27 19:16:42.049 +00:00 [INF] another browser : WAIT ForElementClickable - //div[@jsname]//input[@name='btnK']
+2021-11-27 19:16:42.590 +00:00 [INF] another browser : Click - //div[@jsname]//input[@name='btnK']
+2021-11-27 19:16:44.042 +00:00 [INF] main browser : WAIT ForElementVisible - (//div[@class='g']//div[@class='yuRUbf']/a)[1]
+2021-11-27 19:16:44.066 +00:00 [INF] main browser : GetAttribute 'href' - (//div[@class='g']//div[@class='yuRUbf']/a)[1]
+2021-11-27 19:16:44.087 +00:00 [INF] another browser : WAIT ForElementVisible - (//div[@class='g']//div[@class='yuRUbf']/a)[1]
+2021-11-27 19:16:44.108 +00:00 [INF] another browser : GetAttribute 'href' - (//div[@class='g']//div[@class='yuRUbf']/a)[1]
+2021-11-27 19:16:44.119 +00:00 [INF] ===========================LOG FINISHED===========================

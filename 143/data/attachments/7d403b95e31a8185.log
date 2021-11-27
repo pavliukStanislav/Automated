@@ -1,0 +1,10 @@
+2021-11-27 19:16:36.014 +00:00 [INF] ===========================LOG STARTED===========================
+2021-11-27 19:16:36.014 +00:00 [INF] main browser : CREATING BROWSER INSCANCE - Chrome
+2021-11-27 19:16:36.196 +00:00 [INF] main browser : GoToUrl - https://www.google.com.ua/
+2021-11-27 19:16:36.553 +00:00 [INF] main browser : WAIT ForElementVisible - //input[@type='text']
+2021-11-27 19:16:36.608 +00:00 [INF] main browser : WAIT ForElementClickable - //div[@jsname]//input[@name='btnK']
+2021-11-27 19:16:37.150 +00:00 [INF] main browser : Click - //div[@jsname]//input[@name='btnK']
+2021-11-27 19:16:38.561 +00:00 [INF] main browser : WAIT ForElementVisible - (//div[@class='g']//div[@class='yuRUbf']/a)[1]
+2021-11-27 19:16:38.581 +00:00 [INF] main browser : GetAttribute 'href' - (//div[@class='g']//div[@class='yuRUbf']/a)[1]
+2021-11-27 19:16:38.688 +00:00 [INF] main browser : CREATING SCREENSHOT - logs/Assert google search results exists FAILED/main browser screenshot.png
+2021-11-27 19:16:38.769 +00:00 [INF] ===========================LOG FINISHED===========================

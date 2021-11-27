@@ -1,0 +1,210 @@
+{
+  "uid" : "e925245f890e6af6",
+  "name" : "Assert google search results exists FAILED",
+  "fullName" : "Assert google search results exists FAILED",
+  "historyId" : "Assert google search results exists FAILED",
+  "time" : {
+    "start" : 1638040596196,
+    "stop" : 1638040598769,
+    "duration" : 2573
+  },
+  "status" : "failed",
+  "statusMessage" : "Expected string \"https://www.google.com/\" to contain \"asdasd\".",
+  "statusTrace" : "NUnit.Framework.AssertionException: Expected string \"https://www.google.com/\" to contain \"asdasd\".\n   at FluentAssertions.Execution.LateBoundTestFramework.Throw(String message)\n   at FluentAssertions.Execution.TestFrameworkProvider.Throw(String message)\n   at FluentAssertions.Execution.DefaultAssertionStrategy.HandleFailure(String message)\n   at FluentAssertions.Execution.AssertionScope.FailWith(Func`1 failReasonFunc)\n   at FluentAssertions.Execution.AssertionScope.FailWith(Func`1 failReasonFunc)\n   at FluentAssertions.Execution.AssertionScope.FailWith(String message, Object[] args)\n   at FluentAssertions.Primitives.StringAssertions`1.Contain(String expected, String because, Object[] becauseArgs)\n   at Automated.UI.Tests.Steps.Examples.Selenium.ExampleGoogleSearchResultsPageSteps.ThenUserChecksPresentsOnTheGoogleSearchResultsPage(String hrefResult) in /home/runner/work/Automated/Automated/Automated.UI.Tests/Steps/Examples/ExampleGoogleSearchResultsPageSteps.cs:line 21\n   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\n   at Allure.SpecFlowPlugin.AllureBindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments)\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "CreateLoggerInstance [0]",
+    "time" : {
+      "start" : 1638040596014,
+      "stop" : 1638040596014,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "BeforeFeature [0]",
+    "time" : {
+      "start" : 1638040586913,
+      "stop" : 1638040586914,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Expected string \"https://www.google.com/\" to contain \"asdasd\".",
+    "statusTrace" : "NUnit.Framework.AssertionException: Expected string \"https://www.google.com/\" to contain \"asdasd\".\n   at FluentAssertions.Execution.LateBoundTestFramework.Throw(String message)\n   at FluentAssertions.Execution.TestFrameworkProvider.Throw(String message)\n   at FluentAssertions.Execution.DefaultAssertionStrategy.HandleFailure(String message)\n   at FluentAssertions.Execution.AssertionScope.FailWith(Func`1 failReasonFunc)\n   at FluentAssertions.Execution.AssertionScope.FailWith(Func`1 failReasonFunc)\n   at FluentAssertions.Execution.AssertionScope.FailWith(String message, Object[] args)\n   at FluentAssertions.Primitives.StringAssertions`1.Contain(String expected, String because, Object[] becauseArgs)\n   at Automated.UI.Tests.Steps.Examples.Selenium.ExampleGoogleSearchResultsPageSteps.ThenUserChecksPresentsOnTheGoogleSearchResultsPage(String hrefResult) in /home/runner/work/Automated/Automated/Automated.UI.Tests/Steps/Examples/ExampleGoogleSearchResultsPageSteps.cs:line 21\n   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\n   at Allure.SpecFlowPlugin.AllureBindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments)\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)",
+    "steps" : [ {
+      "name" : "Given  User navigates to Google Search Main page",
+      "time" : {
+        "start" : 1638040596196,
+        "stop" : 1638040596553,
+        "duration" : 357
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When  User searchs 'google' on the Google Search Main page",
+      "time" : {
+        "start" : 1638040596553,
+        "stop" : 1638040598560,
+        "duration" : 2007
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then  User checks 'asdasd' presents on the Google Search Results page",
+      "time" : {
+        "start" : 1638040598560,
+        "stop" : 1638040598684,
+        "duration" : 124
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "998063b4fae59451",
+      "name" : "main browser screenshot.png",
+      "source" : "998063b4fae59451.png",
+      "type" : "image/png",
+      "size" : 96138
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "AddLogsToAllure [0]",
+    "time" : {
+      "start" : 1638040598769,
+      "stop" : 1638040598769,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "7d403b95e31a8185",
+      "name" : "Copy Assert google search results exists FAILED_4367d0e5-f7ff-47cb-b5ae-8c3f3889ad64.log",
+      "source" : "7d403b95e31a8185.log",
+      "type" : "text/plain",
+      "size" : 1088
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "AfterFeature [0]",
+    "time" : {
+      "start" : 1638040604238,
+      "stop" : 1638040604238,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "ParallelWorker#2"
+  }, {
+    "name" : "host",
+    "value" : "fv-az243-232"
+  }, {
+    "name" : "feature",
+    "value" : "ExampleSpecflowUiTests"
+  }, {
+    "name" : "tag",
+    "value" : "uiTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 3,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "98ecadf4710cafc3",
+        "reportUrl" : "https://pavliukStanislav.github.io/Automated/142//#testresult/98ecadf4710cafc3",
+        "status" : "failed",
+        "statusDetails" : "Expected string \"https://www.google.com/\" to contain \"asdasd\".",
+        "time" : {
+          "start" : 1637713751220,
+          "stop" : 1637713754002,
+          "duration" : 2782
+        }
+      }, {
+        "uid" : "a815c787788e006a",
+        "reportUrl" : "https://pavliukStanislav.github.io/Automated/141//#testresult/a815c787788e006a",
+        "status" : "failed",
+        "statusDetails" : "Expected string \"https://www.google.com/\" to contain \"asdasd\".",
+        "time" : {
+          "start" : 1637713490057,
+          "stop" : 1637713493002,
+          "duration" : 2945
+        }
+      } ]
+    },
+    "tags" : [ "uiTest" ]
+  },
+  "source" : "e925245f890e6af6.json",
+  "parameterValues" : [ ]
+}

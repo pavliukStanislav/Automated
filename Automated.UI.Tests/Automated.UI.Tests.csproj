@@ -45,7 +45,7 @@
   <ItemGroup>
     <ProjectReference Include="..\Automated.Data\Automated.Data.csproj" />
     <ProjectReference Include="..\Automated.OtherTools\Automated.OtherTools.csproj" />
-    <ProjectReference Include="..\Automated.PagesImplementation\Automated.PagesImplementation.csproj" />
+    <ProjectReference Include="..\Automated.UI.PagesImplementation\Automated.UI.PagesImplementation.csproj" />
     <ProjectReference Include="..\Automated.UI\Automated.UI.csproj" />
   </ItemGroup>
 

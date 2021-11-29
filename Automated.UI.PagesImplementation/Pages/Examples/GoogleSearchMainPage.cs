@@ -3,7 +3,7 @@ using Automated.UI.Elements;
 using Automated.UI.Elements.DefaultElements;
 using Automated.UI.Elements.Interfaces;
 
-namespace Automated.PagesImplementation.Pages.Examples
+namespace Automated.UI.PagesImplementation.Pages.Examples
 {
     public class GoogleSearchMainPage : BasePage
     {

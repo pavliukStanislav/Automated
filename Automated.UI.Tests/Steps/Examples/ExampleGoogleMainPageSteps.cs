@@ -1,4 +1,4 @@
-﻿using Automated.PagesImplementation.Pages.Examples;
+﻿using Automated.UI.PagesImplementation.Pages.Examples;
 using System.Collections.Generic;
 using System.Linq;
 using TechTalk.SpecFlow;

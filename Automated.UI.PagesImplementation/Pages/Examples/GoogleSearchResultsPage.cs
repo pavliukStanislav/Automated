@@ -1,10 +1,9 @@
-﻿using Automated.PagesImplementation.CustomElements.Examples;
-using Automated.UI;
-using Automated.UI.Elements;
+﻿using Automated.UI.Elements;
 using Automated.UI.Elements.DefaultElements;
 using Automated.UI.Elements.Interfaces;
+using Automated.UI.PagesImplementation.CustomElements.Examples;
 
-namespace Automated.PagesImplementation.Pages.Examples
+namespace Automated.UI.PagesImplementation.Pages.Examples
 {
     public class GoogleSearchResultsPage : BasePage
     {

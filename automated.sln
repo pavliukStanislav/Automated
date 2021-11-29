@@ -14,7 +14,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Automated.Data", "Automated
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Automated.UI", "Automated.UI\Automated.UI.csproj", "{0E8ADFA2-3D7E-46E0-A64A-D671405D04F0}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Automated.PagesImplementation", "Automated.PagesImplementation\Automated.PagesImplementation.csproj", "{D656E723-75AE-4DEC-96CD-162F70568419}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Automated.UI.PagesImplementation", "Automated.UI.PagesImplementation\Automated.UI.PagesImplementation.csproj", "{D656E723-75AE-4DEC-96CD-162F70568419}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Automated.API.Tests", "Automated.API.Tests\Automated.API.Tests.csproj", "{FCC504BD-E4C5-4E6E-8BFC-5D1EB72AEBA9}"
 	ProjectSection(ProjectDependencies) = postProject

@@ -1,6 +1,5 @@
 ﻿using Automated.Configurations.Binders;
 using Automated.Configurations.DTOs;
-using System;
 
 namespace Automated.Configurations
 {

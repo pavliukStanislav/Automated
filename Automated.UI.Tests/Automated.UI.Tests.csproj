@@ -43,6 +43,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Automated.Configurations\Automated.Configurations.csproj" />
     <ProjectReference Include="..\Automated.Data\Automated.Data.csproj" />
     <ProjectReference Include="..\Automated.OtherTools\Automated.OtherTools.csproj" />
     <ProjectReference Include="..\Automated.UI.PagesImplementation\Automated.UI.PagesImplementation.csproj" />

@@ -1,4 +1,5 @@
-﻿using OpenQA.Selenium;
+﻿using Automated.UI.Helpers;
+using OpenQA.Selenium;
 using OpenQA.Selenium.Support.Extensions;
 
 namespace Automated.UI
@@ -24,7 +25,7 @@ namespace Automated.UI
 
         internal string SetAttribute(IWebElement element, string attribute, string value)
         {
-            return Driver.ExecuteJavaScript<string>("arguments[0].setAttribute(arguments[1], arguments[2])", element, attribute, value);
+            return Driver.ExecuteJavaScript<string>(JsExecutionsParts.SetAttribute, element, attribute, value);
         }
     }
 }

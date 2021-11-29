@@ -1,4 +1,6 @@
 ﻿using Allure.Commons;
+using Automated.Configurations;
+using Automated.Configurations.Entities;
 using Automated.UI.Helpers.Enums;
 using Serilog;
 using Serilog.Events;
@@ -16,7 +18,6 @@ namespace Automated.UI.Tests.Hooks
         private static readonly AllureLifecycle Allure = AllureLifecycle.Instance;
 
         private string LogsFolder => Path.Combine("logs", _scenarioContext.ScenarioInfo.Title);
-
         private string LogsFileName;
 
         public ScenarioHooks(ScenarioContext sContext)
@@ -47,6 +48,7 @@ namespace Automated.UI.Tests.Hooks
 
             PutToContainer(new List<Browser>() { browser });
         }
+
 
         [AfterScenario(Order = int.MinValue)]
         public void GetScreenShots()

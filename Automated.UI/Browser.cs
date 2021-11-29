@@ -26,13 +26,13 @@ namespace Automated.UI
             this.BrowserName = browserName;
             this.logger = logger;
 
+            logger.Information(LogMessageMasks.Operation, browserName, "CREATING BROWSER INSCANCE", nameof(browserType));
+
             switch (browserType)
             {
                 case BrowserType.Chrome:
                     var options = new ChromeOptions();
                     options.AddArgument("headless");
-
-                    logger.Information(LogMessageMasks.Operation, browserName, "CREATING BROWSER INSCANCE", nameof(BrowserType.Chrome));
 
                     Driver = new ChromeDriver(options);
                     break;

@@ -3,6 +3,9 @@ using Microsoft.Extensions.Configuration;
 
 namespace Automated.Configurations.Binders
 {
+    /// <summary>
+    /// Binding of credential JSON file configuration
+    /// </summary>
     internal static class CredentialsConfiguration
     {
         public static UserData UserData { get; } = Configure();

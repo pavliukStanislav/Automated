@@ -1,0 +1,220 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "children" : [ {
+    "name" : "fv-az90-618",
+    "children" : [ {
+      "name" : "ParallelWorker#1",
+      "children" : [ {
+        "name" : "Scenario outline example",
+        "uid" : "142772fad92ac9f4",
+        "parentUid" : "f69d1352531881cfd2237dc9ad9afabe",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638213863967,
+          "stop" : 1638213863968,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "3", "4" ]
+      }, {
+        "name" : "Basic keywords example",
+        "uid" : "6e096bc09628b654",
+        "parentUid" : "f69d1352531881cfd2237dc9ad9afabe",
+        "status" : "failed",
+        "time" : {
+          "start" : 1638213863948,
+          "stop" : 1638213863959,
+          "duration" : 11
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Occurrense contraint",
+        "uid" : "6f0309a30361e0dd",
+        "parentUid" : "f69d1352531881cfd2237dc9ad9afabe",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638213863878,
+          "stop" : 1638213863881,
+          "duration" : 3
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Get default json configuration",
+        "uid" : "e735037d002dfffd",
+        "parentUid" : "f69d1352531881cfd2237dc9ad9afabe",
+        "status" : "failed",
+        "time" : {
+          "start" : 1638213864009,
+          "stop" : 1638213864070,
+          "duration" : 61
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "And in assertion",
+        "uid" : "4e19dd2f1a37e469",
+        "parentUid" : "f69d1352531881cfd2237dc9ad9afabe",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638213863597,
+          "stop" : 1638213863648,
+          "duration" : 51
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Scenario with table",
+        "uid" : "76890c238a42f55e",
+        "parentUid" : "f69d1352531881cfd2237dc9ad9afabe",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638213863986,
+          "stop" : 1638213863997,
+          "duration" : 11
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Assertion scope",
+        "uid" : "649c34523136211b",
+        "parentUid" : "f69d1352531881cfd2237dc9ad9afabe",
+        "status" : "failed",
+        "time" : {
+          "start" : 1638213863687,
+          "stop" : 1638213863875,
+          "duration" : 188
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Scenario with large string",
+        "uid" : "af9f5f22590b65ba",
+        "parentUid" : "f69d1352531881cfd2237dc9ad9afabe",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638213863971,
+          "stop" : 1638213863973,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Scenario outline example",
+        "uid" : "836d3b8514ebb24b",
+        "parentUid" : "f69d1352531881cfd2237dc9ad9afabe",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638213863963,
+          "stop" : 1638213863965,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "1", "2" ]
+      } ],
+      "uid" : "f69d1352531881cfd2237dc9ad9afabe"
+    }, {
+      "name" : "ParallelWorker#2",
+      "children" : [ {
+        "name" : "Assist helpers",
+        "uid" : "dedd355900044a34",
+        "parentUid" : "3434bacf06aa74cfdb993020edfd7147",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638213863638,
+          "stop" : 1638213863733,
+          "duration" : 95
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Different parameters and transformations",
+        "uid" : "b8783e15d50f06f2",
+        "parentUid" : "3434bacf06aa74cfdb993020edfd7147",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638213863742,
+          "stop" : 1638213864472,
+          "duration" : 730
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Tag scoping example",
+        "uid" : "9a3996049c82c7f",
+        "parentUid" : "3434bacf06aa74cfdb993020edfd7147",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638213864509,
+          "stop" : 1638213864511,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3434bacf06aa74cfdb993020edfd7147"
+    } ],
+    "uid" : "24dff85447875868ecf49e48e65a6d24"
+  }, {
+    "name" : "fv-az139-219",
+    "children" : [ {
+      "name" : "ParallelWorker#2",
+      "children" : [ {
+        "name" : "Assert google search results exists FAILED",
+        "uid" : "38529505ce14ad18",
+        "parentUid" : "12077881743cf5f0be65ed9caf73410a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1638213897731,
+          "stop" : 1638213900619,
+          "duration" : 2888
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Assert google search results exists in few browsers in the same time",
+        "uid" : "1776846d65c542e5",
+        "parentUid" : "12077881743cf5f0be65ed9caf73410a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638213900950,
+          "stop" : 1638213905930,
+          "duration" : 4980
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Assert google search results exists",
+        "uid" : "8e4a28f555e1a167",
+        "parentUid" : "12077881743cf5f0be65ed9caf73410a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638213893856,
+          "stop" : 1638213897406,
+          "duration" : 3550
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "12077881743cf5f0be65ed9caf73410a"
+    } ],
+    "uid" : "3d8fe332c163178591e9345931175d13"
+  } ],
+  "name" : "timeline"
+}

@@ -1,0 +1,170 @@
+{
+  "uid" : "4e19dd2f1a37e469",
+  "name" : "And in assertion",
+  "fullName" : "And in assertion",
+  "historyId" : "And in assertion",
+  "time" : {
+    "start" : 1638213863597,
+    "stop" : 1638213863648,
+    "duration" : 51
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "CreateLoggerInstance [0]",
+    "time" : {
+      "start" : 1638213863553,
+      "stop" : 1638213863592,
+      "duration" : 39
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "BeforeFeature [0]",
+    "time" : {
+      "start" : 1638213863531,
+      "stop" : 1638213863531,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given  Step with and in assertion",
+      "time" : {
+        "start" : 1638213863608,
+        "stop" : 1638213863641,
+        "duration" : 33
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "AddLogsToAllure [0]",
+    "time" : {
+      "start" : 1638213863649,
+      "stop" : 1638213863662,
+      "duration" : 13
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "fc39fa3e458a8b92",
+      "name" : "Copy And in assertion_afb8555e-8fa8-4493-b306-42b42624773e.log",
+      "source" : "fc39fa3e458a8b92.log",
+      "type" : "text/plain",
+      "size" : 207
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "AfterFeature [0]",
+    "time" : {
+      "start" : 1638213863883,
+      "stop" : 1638213863884,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "ParallelWorker#1"
+  }, {
+    "name" : "host",
+    "value" : "fv-az90-618"
+  }, {
+    "name" : "feature",
+    "value" : "Example Fluent Assertion"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "fa834618dcba0fdf",
+        "reportUrl" : "https://pavliukStanislav.github.io/Automated/143//#testresult/fa834618dcba0fdf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638040556993,
+          "stop" : 1638040557022,
+          "duration" : 29
+        }
+      }, {
+        "uid" : "99379eb65b787d3a",
+        "reportUrl" : "https://pavliukStanislav.github.io/Automated/142//#testresult/99379eb65b787d3a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637713720028,
+          "stop" : 1637713720096,
+          "duration" : 68
+        }
+      }, {
+        "uid" : "1071033ad4cecfaa",
+        "reportUrl" : "https://pavliukStanislav.github.io/Automated/141//#testresult/1071033ad4cecfaa",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637713448630,
+          "stop" : 1637713448664,
+          "duration" : 34
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "4e19dd2f1a37e469.json",
+  "parameterValues" : [ ]
+}

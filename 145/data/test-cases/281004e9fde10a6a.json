@@ -1,0 +1,260 @@
+{
+  "uid" : "281004e9fde10a6a",
+  "name" : "Different parameters and transformations",
+  "fullName" : "Different parameters and transformations",
+  "historyId" : "Different parameters and transformations",
+  "time" : {
+    "start" : 1638276613761,
+    "stop" : 1638276614335,
+    "duration" : 574
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "CreateLoggerInstance [0]",
+    "time" : {
+      "start" : 1638276613760,
+      "stop" : 1638276613761,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "BeforeFeature [0]",
+    "time" : {
+      "start" : 1638276613599,
+      "stop" : 1638276613600,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given  Simple step definition",
+      "time" : {
+        "start" : 1638276613761,
+        "stop" : 1638276613761,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "And  Async step definition",
+      "time" : {
+        "start" : 1638276613761,
+        "stop" : 1638276613776,
+        "duration" : 15
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Then  Simple step with parameter 120",
+      "time" : {
+        "start" : 1638276613777,
+        "stop" : 1638276613780,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "And  Some step with argument transformation in 15 days",
+      "time" : {
+        "start" : 1638276613780,
+        "stop" : 1638276613786,
+        "duration" : 6
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "When  Some step with 'Monthly budget' xlsx file transformation",
+      "time" : {
+        "start" : 1638276613786,
+        "stop" : 1638276614332,
+        "duration" : 546
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "When  Table step with transformation",
+      "time" : {
+        "start" : 1638276614333,
+        "stop" : 1638276614335,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "data11",
+        "value" : "data12"
+      }, {
+        "name" : "data21",
+        "value" : "data22"
+      } ],
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 6,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ {
+    "name" : "AddLogsToAllure [0]",
+    "time" : {
+      "start" : 1638276614335,
+      "stop" : 1638276614335,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "968c12e1e838b48e",
+      "name" : "Copy Different parameters and transformations_4ae0915c-1919-45a2-aa89-1658f0561e8e.log",
+      "source" : "968c12e1e838b48e.log",
+      "type" : "text/plain",
+      "size" : 207
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 1
+  }, {
+    "name" : "AfterFeature [0]",
+    "time" : {
+      "start" : 1638276614367,
+      "stop" : 1638276614367,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "ParallelWorker#2"
+  }, {
+    "name" : "host",
+    "value" : "fv-az252-415"
+  }, {
+    "name" : "feature",
+    "value" : "Example specflow"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 5,
+        "unknown" : 0,
+        "total" : 5
+      },
+      "items" : [ {
+        "uid" : "b8783e15d50f06f2",
+        "reportUrl" : "https://pavliukStanislav.github.io/Automated/144//#testresult/b8783e15d50f06f2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638213863742,
+          "stop" : 1638213864472,
+          "duration" : 730
+        }
+      }, {
+        "uid" : "a6dafb9c893e825d",
+        "reportUrl" : "https://pavliukStanislav.github.io/Automated/143//#testresult/a6dafb9c893e825d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638040557123,
+          "stop" : 1638040557668,
+          "duration" : 545
+        }
+      }, {
+        "uid" : "77989fdae9a84535",
+        "reportUrl" : "https://pavliukStanislav.github.io/Automated/142//#testresult/77989fdae9a84535",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637713720126,
+          "stop" : 1637713720796,
+          "duration" : 670
+        }
+      }, {
+        "uid" : "114431e9a0385811",
+        "reportUrl" : "https://pavliukStanislav.github.io/Automated/141//#testresult/114431e9a0385811",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637713448729,
+          "stop" : 1637713449279,
+          "duration" : 550
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "281004e9fde10a6a.json",
+  "parameterValues" : [ ]
+}

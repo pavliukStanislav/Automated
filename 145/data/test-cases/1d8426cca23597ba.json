@@ -1,0 +1,200 @@
+{
+  "uid" : "1d8426cca23597ba",
+  "name" : "Scenario with large string",
+  "fullName" : "Scenario with large string",
+  "historyId" : "Scenario with large string",
+  "time" : {
+    "start" : 1638276613972,
+    "stop" : 1638276613974,
+    "duration" : 2
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "CreateLoggerInstance [0]",
+    "time" : {
+      "start" : 1638276613972,
+      "stop" : 1638276613972,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "BeforeFeature [0]",
+    "time" : {
+      "start" : 1638276613921,
+      "stop" : 1638276613921,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given  this is given for all scenarious in feature",
+      "time" : {
+        "start" : 1638276613973,
+        "stop" : 1638276613973,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Given  this is given with large string",
+      "time" : {
+        "start" : 1638276613973,
+        "stop" : 1638276613974,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "18bd2a5655ac8f4f",
+      "name" : "multiline argument",
+      "source" : "18bd2a5655ac8f4f.txt",
+      "type" : "text/plain",
+      "size" : 20
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 2,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ {
+    "name" : "AddLogsToAllure [0]",
+    "time" : {
+      "start" : 1638276613974,
+      "stop" : 1638276613974,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "e6077e28157612f",
+      "name" : "Copy Scenario with large string_e8a9da31-24ff-4fac-aa03-1ad767646b63.log",
+      "source" : "e6077e28157612f.log",
+      "type" : "text/plain",
+      "size" : 207
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 1
+  }, {
+    "name" : "AfterFeature [0]",
+    "time" : {
+      "start" : 1638276613985,
+      "stop" : 1638276613985,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "ParallelWorker#1"
+  }, {
+    "name" : "host",
+    "value" : "fv-az252-415"
+  }, {
+    "name" : "feature",
+    "value" : "Exmple with Gherkin Language"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 5,
+        "unknown" : 0,
+        "total" : 5
+      },
+      "items" : [ {
+        "uid" : "af9f5f22590b65ba",
+        "reportUrl" : "https://pavliukStanislav.github.io/Automated/144//#testresult/af9f5f22590b65ba",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638213863971,
+          "stop" : 1638213863973,
+          "duration" : 2
+        }
+      }, {
+        "uid" : "938ed022722eb75b",
+        "reportUrl" : "https://pavliukStanislav.github.io/Automated/143//#testresult/938ed022722eb75b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638040557304,
+          "stop" : 1638040557305,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "b452687348efac07",
+        "reportUrl" : "https://pavliukStanislav.github.io/Automated/142//#testresult/b452687348efac07",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637713720386,
+          "stop" : 1637713720388,
+          "duration" : 2
+        }
+      }, {
+        "uid" : "31a863877849c83b",
+        "reportUrl" : "https://pavliukStanislav.github.io/Automated/141//#testresult/31a863877849c83b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637713448945,
+          "stop" : 1637713448946,
+          "duration" : 1
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "1d8426cca23597ba.json",
+  "parameterValues" : [ ]
+}

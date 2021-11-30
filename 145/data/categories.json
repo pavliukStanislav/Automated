@@ -1,0 +1,77 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Expected value to be 10 because 5 should not be 10, but found 5.\nExpected string to be \"Expected\" with a length of 8, but \"Actual\" has a length of 6, differs near \"Act\" (index 0).\n",
+      "children" : [ {
+        "name" : "Assertion scope",
+        "uid" : "da5b816d0e59e717",
+        "parentUid" : "699f82dd0f5726ecf627644784047aa9",
+        "status" : "failed",
+        "time" : {
+          "start" : 1638276613716,
+          "stop" : 1638276613883,
+          "duration" : 167
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "699f82dd0f5726ecf627644784047aa9"
+    }, {
+      "name" : "Expected boolean to be false, but found True.",
+      "children" : [ {
+        "name" : "Basic keywords example",
+        "uid" : "35b30ee205afe070",
+        "parentUid" : "727a386ceaa46e28dd94ac6c00c6a6ec",
+        "status" : "failed",
+        "time" : {
+          "start" : 1638276613942,
+          "stop" : 1638276613951,
+          "duration" : 9
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "727a386ceaa46e28dd94ac6c00c6a6ec"
+    }, {
+      "name" : "Expected string to be equivalent to \"user@user.com\", but found <null>.",
+      "children" : [ {
+        "name" : "Get default json configuration",
+        "uid" : "f775776b3833dc80",
+        "parentUid" : "3f7cfa448ba41160531b47be0d9997fa",
+        "status" : "failed",
+        "time" : {
+          "start" : 1638276613993,
+          "stop" : 1638276614030,
+          "duration" : 37
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3f7cfa448ba41160531b47be0d9997fa"
+    }, {
+      "name" : "Expected string \"https://www.google.com/\" to contain \"asdasd\".",
+      "children" : [ {
+        "name" : "Assert google search results exists FAILED",
+        "uid" : "8291806cf8786c1d",
+        "parentUid" : "04f2fcaf36de0627655c019eccc41e12",
+        "status" : "failed",
+        "time" : {
+          "start" : 1638276656030,
+          "stop" : 1638276658426,
+          "duration" : 2396
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "04f2fcaf36de0627655c019eccc41e12"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ],
+  "name" : "categories"
+}

@@ -1,0 +1,182 @@
+{
+  "uid" : "affd54b0c64793f",
+  "name" : "Tag scoping example",
+  "fullName" : "Tag scoping example",
+  "historyId" : "Tag scoping example",
+  "time" : {
+    "start" : 1638276614366,
+    "stop" : 1638276614367,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "CreateLoggerInstance [0]",
+    "time" : {
+      "start" : 1638276614342,
+      "stop" : 1638276614342,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "BeforeFeature [0]",
+    "time" : {
+      "start" : 1638276613599,
+      "stop" : 1638276613600,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given  Simple scoped step",
+      "time" : {
+        "start" : 1638276614366,
+        "stop" : 1638276614367,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 1,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ {
+    "name" : "AddLogsToAllure [0]",
+    "time" : {
+      "start" : 1638276614367,
+      "stop" : 1638276614367,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "aa3ed7f0c7b2fdf",
+      "name" : "Copy Tag scoping example_b0a79c85-7e0d-4a1b-a1dd-224ef8c5c1ef.log",
+      "source" : "aa3ed7f0c7b2fdf.log",
+      "type" : "text/plain",
+      "size" : 207
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 1
+  }, {
+    "name" : "AfterFeature [0]",
+    "time" : {
+      "start" : 1638276614367,
+      "stop" : 1638276614367,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "ParallelWorker#2"
+  }, {
+    "name" : "host",
+    "value" : "fv-az252-415"
+  }, {
+    "name" : "feature",
+    "value" : "Example specflow"
+  }, {
+    "name" : "tag",
+    "value" : "exampleTag"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 5,
+        "unknown" : 0,
+        "total" : 5
+      },
+      "items" : [ {
+        "uid" : "9a3996049c82c7f",
+        "reportUrl" : "https://pavliukStanislav.github.io/Automated/144//#testresult/9a3996049c82c7f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638213864509,
+          "stop" : 1638213864511,
+          "duration" : 2
+        }
+      }, {
+        "uid" : "f67dbd5bacc970db",
+        "reportUrl" : "https://pavliukStanislav.github.io/Automated/143//#testresult/f67dbd5bacc970db",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638040557698,
+          "stop" : 1638040557699,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "9e42ec46095fe90e",
+        "reportUrl" : "https://pavliukStanislav.github.io/Automated/142//#testresult/9e42ec46095fe90e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637713720833,
+          "stop" : 1637713720834,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "1e5049ec963aa0d6",
+        "reportUrl" : "https://pavliukStanislav.github.io/Automated/141//#testresult/1e5049ec963aa0d6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637713449311,
+          "stop" : 1637713449312,
+          "duration" : 1
+        }
+      } ]
+    },
+    "tags" : [ "exampleTag" ]
+  },
+  "source" : "affd54b0c64793f.json",
+  "parameterValues" : [ ]
+}

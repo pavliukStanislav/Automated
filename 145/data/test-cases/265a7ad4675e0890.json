@@ -1,0 +1,215 @@
+{
+  "uid" : "265a7ad4675e0890",
+  "name" : "Scenario outline example",
+  "fullName" : "Scenario outline example",
+  "historyId" : "Scenario outline example245837385",
+  "time" : {
+    "start" : 1638276613960,
+    "stop" : 1638276613966,
+    "duration" : 6
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "CreateLoggerInstance [0]",
+    "time" : {
+      "start" : 1638276613952,
+      "stop" : 1638276613959,
+      "duration" : 7
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "BeforeFeature [0]",
+    "time" : {
+      "start" : 1638276613921,
+      "stop" : 1638276613921,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given  this is given for all scenarious in feature",
+      "time" : {
+        "start" : 1638276613964,
+        "stop" : 1638276613964,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Given  step with 1 parameter",
+      "time" : {
+        "start" : 1638276613964,
+        "stop" : 1638276613965,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "When  step with 2 parameter",
+      "time" : {
+        "start" : 1638276613965,
+        "stop" : 1638276613966,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 3,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ {
+    "name" : "AddLogsToAllure [0]",
+    "time" : {
+      "start" : 1638276613966,
+      "stop" : 1638276613966,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "bfb7191a3b479bc2",
+      "name" : "Copy Scenario outline example_822c4de1-4415-4aaa-a74b-5db64068ac8d.log",
+      "source" : "bfb7191a3b479bc2.log",
+      "type" : "text/plain",
+      "size" : 207
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 1
+  }, {
+    "name" : "AfterFeature [0]",
+    "time" : {
+      "start" : 1638276613985,
+      "stop" : 1638276613985,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "ParallelWorker#1"
+  }, {
+    "name" : "host",
+    "value" : "fv-az252-415"
+  }, {
+    "name" : "feature",
+    "value" : "Exmple with Gherkin Language"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "first",
+    "value" : "1"
+  }, {
+    "name" : "second",
+    "value" : "2"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 5,
+        "unknown" : 0,
+        "total" : 5
+      },
+      "items" : [ {
+        "uid" : "836d3b8514ebb24b",
+        "reportUrl" : "https://pavliukStanislav.github.io/Automated/144//#testresult/836d3b8514ebb24b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638213863963,
+          "stop" : 1638213863965,
+          "duration" : 2
+        }
+      }, {
+        "uid" : "c041b45c8b5d6094",
+        "reportUrl" : "https://pavliukStanislav.github.io/Automated/143//#testresult/c041b45c8b5d6094",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638040557291,
+          "stop" : 1638040557298,
+          "duration" : 7
+        }
+      }, {
+        "uid" : "18deabaa602587b6",
+        "reportUrl" : "https://pavliukStanislav.github.io/Automated/142//#testresult/18deabaa602587b6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637713720368,
+          "stop" : 1637713720369,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "6e15daaccadd060",
+        "reportUrl" : "https://pavliukStanislav.github.io/Automated/141//#testresult/6e15daaccadd060",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637713448934,
+          "stop" : 1637713448936,
+          "duration" : 2
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "265a7ad4675e0890.json",
+  "parameterValues" : [ "1", "2" ]
+}

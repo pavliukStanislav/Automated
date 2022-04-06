@@ -1,0 +1,161 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "And in assertion",
+    "uid" : "f2eabeb1660223e6",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1649247152940,
+      "stop" : 1649247152982,
+      "duration" : 42
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Assist helpers",
+    "uid" : "3d22421b9ad9399b",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1649247152985,
+      "stop" : 1649247153022,
+      "duration" : 37
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Assertion scope",
+    "uid" : "986c243102e24d9e",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "failed",
+    "time" : {
+      "start" : 1649247153013,
+      "stop" : 1649247153128,
+      "duration" : 115
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Different parameters and transformations",
+    "uid" : "1998265b18b63bfa",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1649247153024,
+      "stop" : 1649247153653,
+      "duration" : 629
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Occurrense contraint",
+    "uid" : "643c381c3f27df11",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1649247153130,
+      "stop" : 1649247153132,
+      "duration" : 2
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Basic keywords example",
+    "uid" : "3a3bbd6571f7afe9",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "failed",
+    "time" : {
+      "start" : 1649247153190,
+      "stop" : 1649247153199,
+      "duration" : 9
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Scenario outline example",
+    "uid" : "864d7d276729914b",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1649247153203,
+      "stop" : 1649247153205,
+      "duration" : 2
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "1", "2" ]
+  }, {
+    "name" : "Scenario outline example",
+    "uid" : "c5e04a7ad41a9260",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1649247153207,
+      "stop" : 1649247153208,
+      "duration" : 1
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "3", "4" ]
+  }, {
+    "name" : "Scenario with large string",
+    "uid" : "c8b32e9530ad336f",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1649247153210,
+      "stop" : 1649247153212,
+      "duration" : 2
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Scenario with table",
+    "uid" : "fa0eadc2bd216ff4",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1649247153216,
+      "stop" : 1649247153230,
+      "duration" : 14
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Get default json configuration",
+    "uid" : "ea2f1f9f0faf8dbb",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "failed",
+    "time" : {
+      "start" : 1649247153244,
+      "stop" : 1649247153278,
+      "duration" : 34
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Tag scoping example",
+    "uid" : "a7b17fd186d37a4e",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1649247153685,
+      "stop" : 1649247153686,
+      "duration" : 1
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  } ],
+  "name" : "suites"
+}
